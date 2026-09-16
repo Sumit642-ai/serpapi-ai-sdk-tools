@@ -276,10 +276,14 @@ broken build cannot be published by accident.
 
 ## Phase 8 — Hand-over
 
-- [ ] Plain-language summary
-- [ ] 5 judge questions with answers
-- [ ] Submission text under 250 words
-- [ ] Demo video script under 3 minutes
+- [x] Plain-language summary
+- [x] 5 judge questions with answers
+- [x] Submission text — **244 words**, names all seven engines, includes the
+      AI disclosure
+- [x] Demo video script — 2 minutes 50, with timings and a cut-down plan
+- [x] Commit
+
+All of it lives in [HANDOVER.md](./HANDOVER.md), ready to copy from.
 
 ## Hard rules in force
 
