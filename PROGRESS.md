@@ -23,7 +23,7 @@ if the session restarts.
 - [x] Read SerpApi docs: `google_light`, `google`, `google_news`, `google_maps`,
       `google_shopping`, `google_flights`, `google_hotels`
 - [x] Pin current versions and check Node
-- [ ] Owner approves the plan  ← **waiting here**
+- [x] Owner approved the plan
 
 ## Phase 2 — Skeleton
 
