@@ -131,6 +131,26 @@ function resolveApiKey(): string {
     process.exit(1);
   }
 
+  // Check the shape before spending anything. A malformed key would be rejected
+  // six times over, which wastes time and makes the output confusing. The value
+  // itself is never printed — only its length and character set.
+  if (!KEY_SHAPED.test(key) && !process.argv.includes("--force")) {
+    const classes = [...new Set(key.replace(/[0-9]/g, "9").replace(/[a-z]/g, "a").replace(/[A-Z]/g, "A"))]
+      .join("")
+      .replace(/[^9aA]/g, "?");
+
+    console.error(
+      `\nThat does not look like a SerpApi key, so nothing was sent.\n\n` +
+        `  expected : 64 characters, lowercase a-f and 0-9 only\n` +
+        `  found    : ${key.length} characters, character classes "${classes}"\n` +
+        `             (9 = digit, a = lowercase, A = uppercase, ? = other)\n\n` +
+        `Copy the key from https://serpapi.com/manage-api-key and paste it into\n` +
+        `.env as: SERPAPI_API_KEY=<the key>   (no quotes, no spaces)\n\n` +
+        `If SerpApi has changed its key format, re-run with: npm run fixtures -- --force\n`,
+    );
+    process.exit(1);
+  }
+
   return key;
 }
 
@@ -245,8 +265,20 @@ async function main(): Promise<void> {
     else failed += 1;
   }
 
-  console.log(`\nDone. ${saved} saved, ${failed} failed. ${RECORDINGS.length} credits used.`);
-  console.log("Next: npm test\n");
+  // Only a search that actually ran costs a credit. A rejected request does not
+  // perform a search, so reporting the full count would overstate the damage.
+  console.log(`\nDone. ${saved} saved, ${failed} failed.`);
+  console.log(`Search credits used: ${saved}.`);
+
+  if (failed > 0) {
+    console.log(
+      `${failed} request(s) were rejected before a search ran. Confirm at ` +
+        `https://serpapi.com/account if you want to be certain.`,
+    );
+  }
+
+  if (saved > 0) console.log("Next: npm test");
+  console.log("");
 
   // A partial recording is still useful, but the exit code should say so.
   if (failed > 0) process.exit(1);
