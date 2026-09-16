@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm run build --workspace serpapi-ai-sdk-tools",
     "test": "npm run test --workspace serpapi-ai-sdk-tools",
-    "typecheck": "npm run typecheck --workspaces --if-present",
+    "typecheck": "tsc --noEmit -p tsconfig.json && npm run typecheck --workspaces --if-present",
     "fixtures": "tsx scripts/record-fixtures.ts"
   },
   "devDependencies": {

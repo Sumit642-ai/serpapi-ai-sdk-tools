@@ -93,11 +93,18 @@ and correct as-is; revisit during the review pass.
 
 ## Phase 4 — Real fixtures (CHECKPOINT)
 
-- [ ] `scripts/record-fixtures.ts`
-- [ ] **STOP** — give the owner the `.env` command and the exact search count
-- [ ] Owner says "done, go ahead"
+- [x] `scripts/record-fixtures.ts` (typechecks; dry run refuses to run with no key)
+- [x] Root `tsconfig.json` added so `npm run typecheck` also covers `scripts/`
+- [x] **STOP** — gave the owner the `.env` command and the search count (6)
+- [ ] Owner says "done, go ahead"  ← **waiting here**
 - [ ] Record, verify fixtures carry no secrets, switch tests over, all pass
 - [ ] Commit
+
+The recorder spends **6 credits**, one per engine. It scrubs every response
+before writing (drops `search_metadata` and any `api_key` key, redacts
+key-shaped strings anywhere in the tree) and refuses to write a file if
+anything key-shaped survives. Tests already assert the fixtures carry no
+secrets, so a bad recording fails the suite rather than reaching a commit.
 
 ## Phase 5 — Examples and demo (CHECKPOINT)
 
