@@ -1,8 +1,40 @@
 {
   "name": "serpapi-ai-sdk-tools",
   "version": "0.1.0",
-  "description": "Ready-made SerpApi search tools for the Vercel AI SDK: web, news, maps, shopping, flights and hotels.",
+  "description": "Ready-made SerpApi search tools for the Vercel AI SDK: web, news, maps, shopping, flights and hotels. Typed inputs validated before a request is sent, compact token-efficient results, and your API key never leaves.",
+  "keywords": [
+    "serpapi",
+    "ai-sdk",
+    "vercel-ai-sdk",
+    "ai",
+    "llm",
+    "agent",
+    "tools",
+    "tool-calling",
+    "function-calling",
+    "search",
+    "search-api",
+    "serp",
+    "web-search",
+    "google-search",
+    "google-flights",
+    "google-hotels",
+    "google-maps",
+    "google-shopping",
+    "google-news",
+    "typescript"
+  ],
   "license": "MIT",
+  "author": "Sumit642-ai",
+  "homepage": "https://github.com/Sumit642-ai/serpapi-ai-sdk-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumit642-ai/serpapi-ai-sdk-tools.git",
+    "directory": "packages/serpapi-ai-sdk-tools"
+  },
+  "bugs": {
+    "url": "https://github.com/Sumit642-ai/serpapi-ai-sdk-tools/issues"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -27,7 +59,8 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
   },
   "peerDependencies": {
     "ai": "^7.0.0",
@@ -42,6 +75,9 @@
     "zod": "^4.6.5"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "^18.17.0 || >=20.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

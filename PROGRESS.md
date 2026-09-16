@@ -237,11 +237,42 @@ the generated copies are noise, so `agentRules: false` is set in
 
 ## Phase 7 — npm preparation (do NOT publish)
 
-- [ ] Finish `package.json` metadata
-- [ ] `npm pack --dry-run` file list and size
-- [ ] Install the tarball in a temp folder outside the repo; ESM + CJS import check
-- [ ] Write out the manual publish commands
-- [ ] Commit
+- [x] Finished `package.json`: author, repository (with `directory`), homepage,
+      bugs, 20 keywords, exports, types, files, engines, peerDependencies,
+      sideEffects, `publishConfig.access`, and `prepublishOnly`
+- [x] `npm pack --dry-run` — 9 files, 77.0 kB packed, 423.5 kB unpacked
+- [x] Installed the tarball in a temp folder outside the repo; ESM and CJS both
+      import, and the types resolve under both `node16` resolution modes
+- [x] Manual publish commands written out (nothing published, no tokens made)
+- [x] Commit
+
+### The Node floor was wrong
+
+`engines` said `>=20.0.0` and the README said "Node 18 or newer". Both are
+wrong, because the package calls `AbortSignal.any()`, which the Node docs give
+as **added in v20.3.0 and v18.17.0**. So `>=20.0.0` would admit Node 20.0–20.2,
+which do not have it, and plain "Node 18" would admit 18.0–18.16, which do not
+either.
+
+Now `"node": "^18.17.0 || >=20.3.0"`, which is exactly right — and deliberately
+excludes Node 19, which never got the backport. The README and the "no fetch
+available" error message say 18.17 to match.
+
+### What the tarball was actually checked for
+
+Installed from the `.tgz` into a throwaway project outside the repository:
+
+- `import` works, `require` works, and all six factories plus `serpApiTools()`
+  are present in both
+- `include: ["flights"]` still narrows at runtime
+- **types resolve under both** `module: node16` as ESM *and* as CJS — this is the
+  check that catches a broken dual-package `exports` map
+- a real search runs against an injected `fetch` and returns compacted results
+- the key reaches the request URL and appears nowhere in the output or `params`
+- a past date is still rejected without a request being made
+
+`prepublishOnly` was run directly: typecheck, 109 tests and build all pass, so a
+broken build cannot be published by accident.
 
 ## Phase 8 — Hand-over
 

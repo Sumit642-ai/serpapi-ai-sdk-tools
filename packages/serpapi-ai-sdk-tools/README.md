@@ -22,7 +22,10 @@ npm install serpapi-ai-sdk-tools ai zod
 
 `ai` and `zod` are peer dependencies — you almost certainly have them already. The
 package itself has **no runtime dependencies** and calls SerpApi with the built-in
-`fetch`, so it needs Node 18 or newer.
+`fetch`.
+
+**Node 18.17 or newer** (or 20.3+). That floor is set by `AbortSignal.any()`, which the
+package uses to honour the AI SDK's `abortSignal` alongside its own timeout.
 
 Then set your key. A free SerpApi plan gives you 250 searches a month:
 

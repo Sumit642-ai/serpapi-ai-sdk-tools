@@ -186,7 +186,7 @@ export async function search(
     return {
       ok: false,
       error:
-        "No fetch implementation is available. Use Node 18 or newer, or pass a `fetch` option.",
+        "No fetch implementation is available. Use Node 18.17 or newer, or pass a `fetch` option.",
     };
   }
 
