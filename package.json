@@ -1,0 +1,25 @@
+{
+  "name": "serpapi-ai-sdk-tools-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Workspace root for serpapi-ai-sdk-tools. Not published.",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace serpapi-ai-sdk-tools",
+    "test": "npm run test --workspace serpapi-ai-sdk-tools",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "fixtures": "tsx scripts/record-fixtures.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
