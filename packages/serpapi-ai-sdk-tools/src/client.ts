@@ -6,8 +6,9 @@ import {
   type SerpApiToolOptions,
 } from "./types.js";
 
-export const DEFAULT_TIMEOUT_MS = 30_000;
-export const DEFAULT_MAX_RESULTS = 5;
+/** Defaults for the shared options. Documented in the README. */
+const DEFAULT_TIMEOUT_MS = 30_000;
+const DEFAULT_MAX_RESULTS = 5;
 
 /** Shown when no key is configured. Tells the model *and* the developer what to do. */
 const MISSING_KEY_MESSAGE =
@@ -56,7 +57,7 @@ function readEnv(name: string): string | undefined {
  * Finds the API key: explicit option first, then the two supported environment
  * variable names. `SERPAPI_KEY` is accepted because some SerpApi examples use it.
  */
-export function resolveApiKey(explicit?: string): string | undefined {
+function resolveApiKey(explicit?: string): string | undefined {
   const fromOption = typeof explicit === "string" ? explicit.trim() : "";
   if (fromOption !== "") return fromOption;
 

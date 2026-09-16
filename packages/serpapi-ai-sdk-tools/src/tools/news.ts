@@ -26,7 +26,7 @@ export function newsSearch(options: SerpApiToolOptions = {}) {
         .string()
         .length(2)
         .optional()
-        .describe('Two-letter country code, e.g. "in" for Indian coverage.'),
+        .describe('Two-letter country code to slant coverage to, e.g. "in", "us", "gb".'),
       language: z
         .string()
         .min(2)

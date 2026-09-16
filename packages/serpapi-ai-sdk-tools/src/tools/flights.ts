@@ -4,7 +4,7 @@ import { z } from "zod";
 import { cleanParams, resolveOptions } from "../client.js";
 import { compactFlights } from "../compact/flights.js";
 import type { SerpApiToolOptions } from "../types.js";
-import { IATA_PATTERN, checkDate, isValidIsoDate } from "../validate.js";
+import { IATA_PATTERN, checkDate, isBefore, isValidIsoDate } from "../validate.js";
 import { normaliseCountry, normaliseLanguage, runSearchTool } from "./shared.js";
 
 /** SerpApi encodes trip type as a number. */
@@ -30,8 +30,8 @@ export function flightsSearch(options: SerpApiToolOptions = {}) {
   return tool({
     description:
       "Search real flights and prices on Google Flights through SerpApi. Airports must " +
-      "be 3-letter IATA codes — DEL for Delhi, BOM for Mumbai, GOI for Goa, BLR for " +
-      "Bengaluru, MAA for Chennai. Dates must be YYYY-MM-DD and cannot be in the past; " +
+      "be 3-letter IATA codes, for example DEL, BOM, LHR or JFK. Note that a city can " +
+      "have more than one airport. Dates must be YYYY-MM-DD and cannot be in the past; " +
       "work out the real date before calling, rather than sending words like 'next " +
       "Friday'. Leave returnDate empty for a one-way trip. Returns itineraries with " +
       "price, total duration, airlines and number of stops.",
@@ -42,8 +42,8 @@ export function flightsSearch(options: SerpApiToolOptions = {}) {
         .describe('Departure airport as a 3-letter IATA code, e.g. "DEL".'),
       arrivalId: z
         .string()
-        .regex(IATA_PATTERN, "Use a 3-letter IATA airport code, for example GOI.")
-        .describe('Destination airport as a 3-letter IATA code, e.g. "GOI".'),
+        .regex(IATA_PATTERN, "Use a 3-letter IATA airport code, for example BOM.")
+        .describe('Destination airport as a 3-letter IATA code, e.g. "BOM".'),
       outboundDate: z
         .string()
         .describe('Departure date as YYYY-MM-DD, e.g. "2026-10-03". Must not be in the past.'),
@@ -94,7 +94,7 @@ export function flightsSearch(options: SerpApiToolOptions = {}) {
             error: `returnDate must be a real date in YYYY-MM-DD format. Received "${input.returnDate}".`,
           };
         }
-        if (input.returnDate <= input.outboundDate) {
+        if (!isBefore(input.outboundDate, input.returnDate)) {
           return {
             error:
               `returnDate (${input.returnDate}) must be after outboundDate ` +

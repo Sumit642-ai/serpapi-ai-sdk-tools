@@ -12,7 +12,7 @@
  */
 
 /** Matches `YYYY-MM-DD`. Format only — says nothing about whether it exists. */
-export const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
 /** Matches three letters, either case. Normalised to uppercase before sending. */
 export const IATA_PATTERN = /^[A-Za-z]{3}$/;

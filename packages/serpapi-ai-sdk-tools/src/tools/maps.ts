@@ -22,15 +22,15 @@ export function mapsSearch(options: SerpApiToolOptions = {}) {
       "Find places, businesses and points of interest on Google Maps through SerpApi. " +
       "Use this for restaurants, cafes, shops, hospitals, landmarks or any 'near me' / " +
       "'in <area>' question. Returns names with address, rating, review count, price " +
-      "band, phone and opening state. Include the area in the query, for example " +
-      '"cafes near Connaught Place, New Delhi".',
+      "band, phone and opening state. Always include the area in the query, for example " +
+      '"cafes near Alexanderplatz, Berlin".',
     inputSchema: z.object({
       query: z
         .string()
         .min(1)
         .describe(
           'What to look for, including the area if you know it, e.g. "vegetarian ' +
-            'restaurants in Bandra, Mumbai".',
+            'restaurants in Shoreditch, London".',
         ),
       latitude: z
         .number()

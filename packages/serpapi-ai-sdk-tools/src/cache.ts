@@ -55,11 +55,6 @@ export class SearchCache {
 
     this.entries.set(key, { value, expiresAt: Date.now() + this.ttlMs });
   }
-
-  /** Number of entries currently held. Used by tests. */
-  get size(): number {
-    return this.entries.size;
-  }
 }
 
 /**

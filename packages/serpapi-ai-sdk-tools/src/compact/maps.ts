@@ -49,7 +49,7 @@ function toPlace(entry: unknown): MapsResult | undefined {
  * Flattens Google Maps results.
  *
  * Google answers a broad query ("cafes near me") with a `local_results` list,
- * but a query that pinpoints one business ("Blue Tokai, Connaught Place")
+ * but a query that pinpoints one business ("Monmouth Coffee, Borough Market")
  * returns a single `place_results` object instead. Both are handled so the tool
  * always returns a list.
  *

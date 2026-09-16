@@ -31,8 +31,8 @@ export function shoppingSearch(options: SerpApiToolOptions = {}) {
         .length(2)
         .optional()
         .describe(
-          'Two-letter country code of the store front, e.g. "in" for Indian shops and ' +
-            "rupee prices. This is what controls the currency shown.",
+          'Two-letter country code of the store front, e.g. "in", "us", "gb". This is ' +
+            "what decides which shops appear and which currency their prices are in.",
         ),
       language: z
         .string()

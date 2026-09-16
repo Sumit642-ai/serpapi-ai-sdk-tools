@@ -4,7 +4,7 @@ import { z } from "zod";
 import { cleanParams, resolveOptions } from "../client.js";
 import { compactHotels } from "../compact/hotels.js";
 import type { SerpApiToolOptions } from "../types.js";
-import { checkDate, isValidIsoDate } from "../validate.js";
+import { checkDate, isBefore, isValidIsoDate } from "../validate.js";
 import { normaliseCountry, normaliseLanguage, runSearchTool } from "./shared.js";
 
 /**
@@ -26,7 +26,7 @@ export function hotelsSearch(options: SerpApiToolOptions = {}) {
       query: z
         .string()
         .min(1)
-        .describe('Where to stay, e.g. "hotels in Jaipur" or "beach resorts in North Goa".'),
+        .describe('Where to stay, e.g. "hotels in Lisbon" or "beach resorts near Da Nang".'),
       checkInDate: z
         .string()
         .describe('Check-in date as YYYY-MM-DD, e.g. "2026-10-03". Must not be in the past.'),
@@ -64,7 +64,7 @@ export function hotelsSearch(options: SerpApiToolOptions = {}) {
       }
 
       // Google Hotels needs at least one night; equal dates return nothing useful.
-      if (input.checkOutDate <= input.checkInDate) {
+      if (!isBefore(input.checkInDate, input.checkOutDate)) {
         return {
           error:
             `checkOutDate (${input.checkOutDate}) must be after checkInDate ` +

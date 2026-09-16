@@ -47,8 +47,8 @@ export function webSearch(options: WebSearchOptions = {}) {
         .length(2)
         .optional()
         .describe(
-          'Two-letter country code to search from, e.g. "in" for India, "us" for the ' +
-            "United States. Affects which results rank highest.",
+          'Two-letter country code to search from, e.g. "in", "us", "gb". Affects ' +
+            "which results rank highest.",
         ),
       language: z
         .string()

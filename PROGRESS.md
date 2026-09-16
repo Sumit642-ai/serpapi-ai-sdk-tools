@@ -84,12 +84,19 @@ The reason is repeated as a comment in `packages/serpapi-ai-sdk-tools/tsup.confi
 - **`google_shopping` has no `currency` parameter.** The store front (`gl`)
   decides the currency, so `defaults.currency` is deliberately not sent there.
 
-### Open item for the Phase 6 review
+### Open item for the Phase 6 review — now closed
 
-`dist/index.d.ts` is ~81 KB. It correctly does `import * as ai from 'ai'`, but
-TypeScript writes the inferred `tool()` return type out structurally. Giving the
-six factories explicit return type annotations would shrink it a lot. Working
-and correct as-is; revisit during the review pass.
+`dist/index.d.ts` is ~83 KB: 2115 lines for 7 declarations, because TypeScript
+writes each factory's inferred `tool()` return type out structurally.
+
+**Decision: leave it.** The fix would be explicit return type annotations, which
+need `Tool` and `ExecutableTool` — and those are not exported from `ai`. They
+live in `@ai-sdk/provider-utils`, which this package does not depend on and
+should not start depending on to solve a cosmetic problem. "No runtime
+dependencies" is worth more than a smaller declaration file.
+
+The file is correct: it does `import * as ai from 'ai'`, so consumer types
+resolve against the consumer's own copy of the AI SDK.
 
 ## Phase 4 — Real fixtures (CHECKPOINT)
 
@@ -145,8 +152,8 @@ secrets, so a bad recording fails the suite rather than reaching a commit.
 - [x] `npm run dev` starts it — builds the package first, then Next
 - [x] End-to-end verified for **0 search credits** (see below)
 - [x] **STOP** — gave the owner 6 browser questions
-- [ ] Fix whatever the owner reports  ← **waiting here**
-- [ ] Commit the fixes
+- [x] Owner confirmed all six work in the browser
+- [x] Commit
 
 ### The demo model had to change
 
@@ -191,12 +198,42 @@ the generated copies are noise, so `agentRules: false` is set in
 
 ## Phase 6 — Docs, CI and review
 
-- [ ] Package README (npm page)
-- [ ] Root README with the AI-assisted development disclosure
-- [ ] "Not official SerpApi" note in both
-- [ ] `.github/workflows/ci.yml` (no secrets)
-- [ ] Developer-advocate review pass; list the changes
-- [ ] Commit
+- [x] Package README (npm page) — install, 3-line quick start, every tool's
+      inputs and outputs, all options, the locale example, "why SerpApi",
+      "not official" note
+- [x] Root README with the AI-assisted development disclosure
+- [x] "Not official SerpApi" note in both
+- [x] `.github/workflows/ci.yml` — no secrets, Ubuntu + Windows, Node 20/22/24
+- [x] Developer-advocate review pass
+- [x] Commit
+
+### What the review changed
+
+1. **Six dead exports removed.** `DEFAULT_MAX_RESULTS`, `DEFAULT_TIMEOUT_MS`,
+   `resolveApiKey`, `ISO_DATE_PATTERN` and `isBefore` were exported but never
+   imported anywhere — each used only inside its own file. `SearchCache.size`
+   was genuinely dead and is gone.
+2. **One way to compare dates.** `validate.ts` had an `isBefore` helper while
+   `flights.ts` and `hotels.ts` compared dates with raw `<=`. Both now use the
+   helper, so the "ISO dates compare correctly as strings" reasoning lives in
+   one place.
+3. **India taken out of the published package.** The tool descriptions had
+   India-specific examples baked in — Connaught Place, Jaipur, "rupee prices",
+   a list of Indian airport codes. `CLAUDE.md` asks for the India example to be
+   *documented, not hard-coded*, and those strings ship to every user of the
+   package worldwide. Descriptions are now locale-neutral; India stays in the
+   README, the `.env.example` and the demo, where it belongs.
+4. **A CI bug caught before the first push.** `npm run typecheck` covers the
+   examples, which import the package by name — so they cannot typecheck until
+   `dist` exists. The workflow now builds first. A root `prepare` script also
+   builds on `npm install`, so a fresh clone works immediately.
+
+### Verified, not assumed
+
+- `npm pack --dry-run` lists exactly `dist/`, `README.md`, `LICENSE`,
+  `package.json` — 9 files, 76.6 kB packed.
+- A scan of all 62 git-tracked files found neither API key, no `api_key=` with a
+  value, and no `AIza`-shaped string. `.env` is not tracked.
 
 ## Phase 7 — npm preparation (do NOT publish)
 
