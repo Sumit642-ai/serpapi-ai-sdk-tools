@@ -1,16 +1,14 @@
 {
-  "search_metadata": {
-    "id": "handwritten-fixture",
-    "status": "Success"
-  },
   "search_parameters": {
     "engine": "google_flights",
+    "hl": "en",
+    "gl": "in",
+    "type": "1",
     "departure_id": "DEL",
     "arrival_id": "GOX",
-    "outbound_date": "2026-10-03",
-    "type": "2",
-    "currency": "INR",
-    "travel_class": "1"
+    "outbound_date": "2026-10-16",
+    "return_date": "2026-10-21",
+    "currency": "INR"
   },
   "best_flights": [
     {
@@ -19,34 +17,188 @@
           "departure_airport": {
             "name": "Indira Gandhi International Airport",
             "id": "DEL",
-            "time": "2026-10-03 06:10"
+            "time": "2026-10-16 12:30"
           },
           "arrival_airport": {
-            "name": "Manohar International Airport",
+            "name": "Manohar International Airport (GOX) - Goa",
             "id": "GOX",
-            "time": "2026-10-03 08:45"
+            "time": "2026-10-16 15:00"
           },
-          "duration": 155,
-          "airplane": "Airbus A320",
+          "duration": 150,
+          "airplane": "Airbus A321neo",
           "airline": "IndiGo",
           "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
           "travel_class": "Economy",
-          "flight_number": "6E 2043",
+          "flight_number": "6E 2707",
           "legroom": "28 in",
-          "extensions": ["Average legroom (28 in)", "Carbon emissions estimate: 95 kg"]
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 108 kg"
+          ]
         }
       ],
-      "layovers": [],
-      "total_duration": 155,
+      "total_duration": 150,
       "carbon_emissions": {
-        "this_flight": 95000,
-        "typical_for_this_route": 101000,
-        "difference_percent": -6
+        "this_flight": 108000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -11
       },
-      "price": 5432,
-      "type": "One way",
+      "price": 16610,
+      "type": "Round trip",
       "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
-      "booking_token": "EXAMPLE_BOOKING_TOKEN_1"
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1kyUlRJM01EY2FDd2ppZ1FFUUFCb0RTVTVTT0J4d3BJY0IiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIjZFIiwiMjcwNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 14:55"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 17:35"
+          },
+          "duration": 160,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1815",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 110 kg"
+          ]
+        }
+      ],
+      "total_duration": 160,
+      "carbon_emissions": {
+        "this_flight": 111000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -9
+      },
+      "price": 17042,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pSVURFNE1UVWFDd2lTaFFFUUFCb0RTVTVTT0J4dzVvb0IiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIlFQIiwiMTgxNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 08:20"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 11:00"
+          },
+          "duration": 160,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1813",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 110 kg"
+          ]
+        }
+      ],
+      "total_duration": 160,
+      "carbon_emissions": {
+        "this_flight": 111000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -9
+      },
+      "price": 17206,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pSVURFNE1UTWFDd2kyaGdFUUFCb0RTVTVTT0J4d2tZd0IiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIlFQIiwiMTgxMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 21:25"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-17 00:05"
+          },
+          "duration": 160,
+          "airplane": "Airbus A321",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+          "travel_class": "Economy",
+          "flight_number": "IX 1082",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 140 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 160,
+      "carbon_emissions": {
+        "this_flight": 140000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 15
+      },
+      "price": 17578,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pKV0RFd09ESWFDd2lxaVFFUUFCb0RTVTVTT0J4d2xZOEIiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIklYIiwiMTA4MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 10:30"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 13:10"
+          },
+          "duration": 160,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1817",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 110 kg"
+          ]
+        }
+      ],
+      "total_duration": 160,
+      "carbon_emissions": {
+        "this_flight": 111000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -9
+      },
+      "price": 17718,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pSVURFNE1UY2FDd2kyaWdFUUFCb0RTVTVTT0J4d3A1QUIiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIlFQIiwiMTgxNyJdXV0="
     }
   ],
   "other_flights": [
@@ -56,67 +208,215 @@
           "departure_airport": {
             "name": "Indira Gandhi International Airport",
             "id": "DEL",
-            "time": "2026-10-03 14:20"
+            "time": "2026-10-16 18:40"
           },
           "arrival_airport": {
-            "name": "Chhatrapati Shivaji Maharaj International Airport",
-            "id": "BOM",
-            "time": "2026-10-03 16:30"
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 21:15"
           },
-          "duration": 130,
-          "airplane": "Boeing 787",
-          "airline": "Air India",
+          "duration": 155,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
           "travel_class": "Economy",
-          "flight_number": "AI 806"
-        },
+          "flight_number": "IX 1049",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 127 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 155,
+      "carbon_emissions": {
+        "this_flight": 127000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 4
+      },
+      "price": 17578,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pKV0RFd05Ea2FDd2lxaVFFUUFCb0RTVTVTT0J4d2xZOEIiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIklYIiwiMTA0OSJdXV0="
+    },
+    {
+      "flights": [
         {
           "departure_airport": {
-            "name": "Chhatrapati Shivaji Maharaj International Airport",
-            "id": "BOM",
-            "time": "2026-10-03 17:55"
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 19:30"
           },
           "arrival_airport": {
-            "name": "Manohar International Airport",
+            "name": "Manohar International Airport (GOX) - Goa",
             "id": "GOX",
-            "time": "2026-10-03 19:00"
+            "time": "2026-10-16 22:10"
           },
-          "duration": 65,
+          "duration": 160,
           "airplane": "Airbus A320neo",
-          "airline": "Air India",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
           "travel_class": "Economy",
-          "flight_number": "AI 671"
+          "flight_number": "IX 1817",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 123 kg"
+          ],
+          "often_delayed_by_over_30_min": true
         }
       ],
-      "layovers": [
-        {
-          "duration": 85,
-          "name": "Chhatrapati Shivaji Maharaj International Airport",
-          "id": "BOM"
-        }
-      ],
-      "total_duration": 280,
+      "total_duration": 160,
       "carbon_emissions": {
-        "this_flight": 132000,
-        "typical_for_this_route": 101000,
-        "difference_percent": 31
+        "this_flight": 124000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 2
       },
-      "price": 4890,
-      "type": "One way",
-      "booking_token": "EXAMPLE_BOOKING_TOKEN_2"
+      "price": 17578,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1pKV0RFNE1UY2FDd2lxaVFFUUFCb0RTVTVTT0J4d2xZOEIiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIklYIiwiMTgxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 06:10"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 08:40"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 2265",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -11
+      },
+      "price": 19077,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1kyUlRJeU5qVWFDd2lGbFFFUUFCb0RTVTVTT0J4d3NKc0IiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIjZFIiwiMjI2NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-16 18:50"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport (GOX) - Goa",
+            "id": "GOX",
+            "time": "2026-10-16 21:20"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 2271",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -11
+      },
+      "price": 20022,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "departure_token": "WyJDalJJY1hOVFZsbHRkV2sxTTAxQlJrTkVZbEZDUnkwdExTMHRMUzB0ZVdsaVkyNHhNa0ZCUVVGQlIzRnhaV3ROUWtOb2ExbEJFZ1kyUlRJeU56RWFDd2kybkFFUUFCb0RTVTVTT0J4d2lhTUIiLFtbIkRFTCIsIjIwMjYtMTAtMTYiLCJHT1giLG51bGwsIjZFIiwiMjI3MSJdXV0="
     }
   ],
   "price_insights": {
-    "lowest_price": 4890,
-    "price_level": "low",
-    "typical_price_range": [4500, 9000]
+    "lowest_price": 16610,
+    "price_level": "typical",
+    "typical_price_range": [
+      11500,
+      20500
+    ]
   },
   "airports": [
     {
       "departure": [
         {
-          "airport": { "id": "DEL", "name": "Indira Gandhi International Airport" },
+          "airport": {
+            "id": "DEL",
+            "name": "Indira Gandhi International Airport"
+          },
           "city": "New Delhi",
-          "country": "India"
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "GOX",
+            "name": "Manohar International Airport (GOX) - Goa"
+          },
+          "city": "Goa",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSV9ZBaJnlVAyvxpnpLgJSQcw8iTKl-RmtMpyb-V1vzMbHVJMdMyzus4HNee9WyA8GYbl0VlSpmxXeN8A",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTua5WXy2lHX1J7yNO9J0DpWHP2z9NzByWFLCiCQqzgt4DsYURWFHTkRpwW0zr4nQMQUrX8m6Hk3OlSIZVmCZczvsIlrrx4sHDLXST1fmU"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "GOX",
+            "name": "Manohar International Airport (GOX) - Goa"
+          },
+          "city": "Goa",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSV9ZBaJnlVAyvxpnpLgJSQcw8iTKl-RmtMpyb-V1vzMbHVJMdMyzus4HNee9WyA8GYbl0VlSpmxXeN8A",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTua5WXy2lHX1J7yNO9J0DpWHP2z9NzByWFLCiCQqzgt4DsYURWFHTkRpwW0zr4nQMQUrX8m6Hk3OlSIZVmCZczvsIlrrx4sHDLXST1fmU"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "DEL",
+            "name": "Indira Gandhi International Airport"
+          },
+          "city": "New Delhi",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
         }
       ]
     }

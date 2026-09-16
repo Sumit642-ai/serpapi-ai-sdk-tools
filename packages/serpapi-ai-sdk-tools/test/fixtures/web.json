@@ -1,46 +1,89 @@
 {
-  "search_metadata": {
-    "id": "handwritten-fixture",
-    "status": "Success",
-    "total_time_taken": 0.87
-  },
   "search_parameters": {
     "engine": "google_light",
     "q": "what is serpapi",
+    "google_domain": "google.com",
+    "hl": "en",
     "gl": "in",
-    "hl": "en"
+    "device": "desktop"
   },
   "search_information": {
     "query_displayed": "what is serpapi",
-    "total_results": 1840000
+    "organic_results_state": "Results for exact spelling"
   },
   "organic_results": [
     {
       "position": 1,
       "title": "SerpApi: Google Search API",
       "link": "https://serpapi.com/",
-      "displayed_link": "https://serpapi.com",
-      "snippet": "Scrape Google and other search engines from our fast, easy, and complete API.",
+      "displayed_link": "serpapi.com",
+      "snippet": "SerpApi is a real-time API to access Google search results. We handle proxies, solve captchas, and parse all rich structured data for you.",
       "sitelinks": {
-        "inline": [{ "title": "Pricing", "link": "https://serpapi.com/pricing" }]
+        "list": [
+          {
+            "title": "Pricing",
+            "link": "https://serpapi.com/pricing"
+          }
+        ]
       }
     },
     {
       "position": 2,
-      "title": "SerpApi - Wikipedia",
-      "link": "https://en.wikipedia.org/wiki/SerpApi",
-      "displayed_link": "https://en.wikipedia.org › wiki › SerpApi",
-      "snippet": "SerpApi is a real-time API to access search engine results.",
-      "date": "12 Aug 2026"
+      "title": "What Is a SERP API? How It Works and When to Switch - You.com",
+      "link": "https://you.com/resources/what-is-a-serp-api",
+      "displayed_link": "you.com › resources › what-is-a-serp-api",
+      "snippet": "A SERP API is a managed service that retrieves, renders, and parses those pages into structured data your application can consume.",
+      "date": "30 Apr 2026"
     },
     {
       "position": 3,
-      "title": "SerpApi on GitHub",
-      "link": "https://github.com/serpapi",
-      "displayed_link": "https://github.com › serpapi",
-      "snippet": "Official client libraries for the SerpApi search API."
+      "title": "Google SERP API: Everything You Need To Know - Medium",
+      "link": "https://medium.com/@darshankhandelwal12/google-serp-api-everything-you-need-to-know-e9ae28fd86ef",
+      "displayed_link": "medium.com › ...",
+      "snippet": "Google SERP API to supply up-to-date facts, examples, or Q&A to a chatbot or language model. Developers often chain a SERP API with GPT-like ...",
+      "date": "17 Jun 2025"
+    },
+    {
+      "position": 4,
+      "title": "Web Search API: A Quick Tour of SerpApi - YouTube",
+      "link": "https://www.youtube.com/watch?v=ViZ5WvDbzKY",
+      "displayed_link": "www.youtube.com › watch",
+      "snippet": "Welcome to SerpApi! SerpApi provides APIs that help developers scrape real-time public data from search engine results such as Google, Bing, ...",
+      "date": "29 Jan 2026"
+    },
+    {
+      "position": 5,
+      "title": "Best SERP APIs in 2026: Official Google Alternatives & Third-Party ...",
+      "link": "https://scrapfly.io/blog/posts/google-serp-api-and-alternatives",
+      "displayed_link": "scrapfly.io › Blog › seo",
+      "snippet": "A SERP API allows developers to access search engine results programmatically, streamlining the process of data extraction for analysis and SEO ...",
+      "date": "4 Aug 2026"
+    },
+    {
+      "position": 6,
+      "title": "Serper - The World's Fastest and Cheapest Google Search API",
+      "link": "https://serper.dev/",
+      "displayed_link": "serper.dev",
+      "snippet": "Industry-leading SERP API, delivering lightning-fast Google search results in 1-2 seconds, at an unbeatable price starting at $0.30 per 1000 queries."
+    },
+    {
+      "position": 7,
+      "title": "What is SerpApi, and why is Google suing them? - Quora",
+      "link": "https://www.quora.com/What-is-SerpApi-and-why-is-Google-suing-them",
+      "displayed_link": "www.quora.com › What-is-SerpApi-and-why-is-Google-suing-them",
+      "snippet": "SerpApi is search engine result page (SERP) this API allow developers, marketers, and businesses to get real-time search engine data from ...",
+      "date": "19 Dec 2025"
+    },
+    {
+      "position": 8,
+      "title": "Google Search Results via SERP API pip Python Package - GitHub",
+      "link": "https://github.com/serpapi/google-search-results-python",
+      "displayed_link": "github.com › serpapi › google-search-results-python",
+      "snippet": "This Python package is meant to scrape and parse search results from Google, Bing, Baidu, Yandex, Yahoo, Home Depot, eBay and more, using SerpApi."
     }
   ],
-  "related_searches": [{ "query": "serpapi pricing" }],
-  "serpapi_pagination": { "next": "https://serpapi.com/search?start=10" }
+  "serpapi_pagination": {
+    "current": 1,
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_light&gl=in&google_domain=google.com&hl=en&q=what+is+serpapi&start=10&location=Austin%2C+TX%2C+Texas%2C+United+States"
+  }
 }

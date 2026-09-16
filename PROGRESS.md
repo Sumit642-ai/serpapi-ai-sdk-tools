@@ -96,9 +96,39 @@ and correct as-is; revisit during the review pass.
 - [x] `scripts/record-fixtures.ts` (typechecks; dry run refuses to run with no key)
 - [x] Root `tsconfig.json` added so `npm run typecheck` also covers `scripts/`
 - [x] **STOP** — gave the owner the `.env` command and the search count (6)
-- [ ] Owner says "done, go ahead"  ← **waiting here**
-- [ ] Record, verify fixtures carry no secrets, switch tests over, all pass
-- [ ] Commit
+- [x] Owner confirmed
+- [x] Recorded all six engines — **6 credits used**, exactly as quoted
+- [x] Audited every fixture: no key, no `api_key`, no `search_metadata`
+- [x] Rewrote the compaction tests against real data — 109 tests pass
+- [x] Commit
+
+### What the real data changed
+
+Fourteen tests failed on first contact with real responses. None were bugs in
+the package — all were assertions written against fixture content I had
+invented. Three things worth keeping in mind:
+
+- **Recorded fixtures now test structure, not content.** Asserting a hotel's
+  name or a flight's price means the suite breaks whenever anyone re-records,
+  which teaches people to update expectations without reading them.
+- **Real data does not cover every branch.** All nine recorded flights are
+  non-stop and none of the 100 news results are grouped into `stories`, so the
+  multi-leg, layover, airline-deduplication and story-flattening branches are
+  tested against small inline responses where the input is visible.
+- **Google's own data is inconsistent.** The same shopping response contains
+  both `"amazon.in"` and `"Amazon.in"`. Tests assert types, not casing.
+
+### A tripwire that was too strict
+
+The recorder refused to write the news fixture because it contained a
+64-character hex string — the shape of a SerpApi key. It was a Reuters image
+URL with an `auth=` token in it. The rule was wrong in both the recorder and
+the tests: a genuine leak always carries `api_key`, which is checked directly,
+so the blanket hex rule only rejected real data. Replaced with exact checks for
+`api_key` and `search_metadata`.
+
+Fixture sizes total about 700 KB. They are not published — `files: ["dist"]`
+means the npm package never includes `test/`.
 
 The recorder spends **6 credits**, one per engine. It scrubs every response
 before writing (drops `search_metadata` and any `api_key` key, redacts

@@ -1,57 +1,3269 @@
 {
-  "search_metadata": {
-    "id": "handwritten-fixture",
-    "status": "Success"
-  },
   "search_parameters": {
     "engine": "google_maps",
-    "q": "cafes near Connaught Place, New Delhi",
     "type": "search",
+    "q": "cafes near Connaught Place, New Delhi",
+    "google_domain": "google.com",
     "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "cafes near Connaught Place, New Delhi"
   },
   "local_results": [
     {
       "position": 1,
-      "title": "Blue Tokai Coffee Roasters",
-      "place_id": "EXAMPLE_PLACE_ID_1",
-      "data_id": "0x390cfd0000000000:0xexample1",
-      "gps_coordinates": { "latitude": 28.6304, "longitude": 77.2177 },
-      "rating": 4.4,
-      "reviews": 2183,
-      "price": "₹200–400",
-      "type": "Coffee shop",
-      "types": ["Coffee shop", "Cafe"],
-      "address": "N-Block, Connaught Place, New Delhi, Delhi 110001",
-      "open_state": "Open ⋅ Closes 11 pm",
-      "hours": "Open ⋅ Closes 11 pm",
-      "operating_hours": { "monday": "8:30 am–11 pm" },
-      "phone": "+91 99999 00000",
-      "website": "https://bluetokaicoffee.com/",
-      "thumbnail": "https://lh5.googleusercontent.com/example-thumb-1"
+      "title": "THE BIG CHILL",
+      "place_id": "ChIJ81UwsgD9DDkRihnWvwGxYxQ",
+      "data_id": "0x390cfd00b23055f3:0x1463b101bfd6198a",
+      "data_cid": "1469212524524476810",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd00b23055f3%3A0x1463b101bfd6198a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd00b23055f3%3A0x1463b101bfd6198a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6342726,
+        "longitude": 77.21911159999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ81UwsgD9DDkRihnWvwGxYxQ",
+      "provider_id": "/g/11fj2mwfjq",
+      "rating": 4.5,
+      "reviews": 9724,
+      "price": "₹600–1,600",
+      "extracted_price": 600,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Continental restaurant",
+        "Dessert shop",
+        "Italian restaurant",
+        "Pizza restaurant"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "continental_restaurant",
+        "dessert_shop",
+        "italian_restaurant",
+        "pizza_restaurant"
+      ],
+      "address": "B-40, Inner Cir, Block B, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11:15 PM",
+      "hours": "Open · Closes 11:15 PM",
+      "operating_hours": {
+        "wednesday": "12–11:15 PM",
+        "thursday": "12–11:15 PM",
+        "friday": "12–11:15 PM",
+        "saturday": "12–11:15 PM",
+        "sunday": "12–11:15 PM",
+        "monday": "12–11:15 PM",
+        "tuesday": "12–11:15 PM"
+      },
+      "phone": "+91 11 4175 7075",
+      "website": "http://www.thebigchillonline.com/",
+      "description": "Movie-themed eatery for Italian classics. Laid-back restaurant serving Italian homestyle cooking amid American movie-themed decor.",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great wine list"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Hard liquor",
+            "Healthy options",
+            "Late-night food",
+            "Private dining room",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations",
+            "Usually a wait"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmajJtd2ZqcRgAOgMI8A0%3D&g2lbs=AEzIGDsITNq9TrLzj70GzDx5LrsnfnS126tCVfSlkbmjJqh7VCPqeYzhT1zycsa6pqeuKEQX-jTq&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkcetWqOJc0IAZDSEgoxRX-dcdkMopThpoldvTMWa5Aqonuu190kEmMcd4Jh39YQ_ktE3JUtM4hGyg7qXGe6wkcFMqNovgTxDHEvlQZD_0nr6SNBJergR7LAPjsSAIFwt3jOf7y9Q=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/T5oAtHicHcRbjoIwFADQFVVqcCRMMh-dgA9iVR4G9cdMLrWNxV6gBXSJLsHdTOL5OO-Xcq6x355XK38iEWUteis6QOOEcRPAuycbS8AS67FVti9KDcKV7S4BumbnKI8lPrIjqaDSHJtCNVhXQ8HLvy_Woun7aUh1fOdQzRLlh6f0ol3sJwfHZ2r5lEF7XIr5qGHB2y0OsnhEq3io03N0oaab59vfRHQyCzZsf7M5Wy9G59921-AZpj_jlFJK1Gcg5h9nKUZI"
     },
     {
       "position": 2,
-      "title": "Cafe United Coffee House",
-      "place_id": "EXAMPLE_PLACE_ID_2",
-      "gps_coordinates": { "latitude": 28.6328, "longitude": 77.2197 },
-      "rating": 4.2,
-      "reviews": 15420,
-      "price": "₹₹",
-      "type": "Restaurant",
-      "address": "E-15, Connaught Place, New Delhi, Delhi 110001",
-      "open_state": "Closed ⋅ Opens 10 am Tue",
-      "phone": "+91 88888 00000"
+      "title": "Third Wave Coffee",
+      "place_id": "ChIJn3pCoq_9DDkRQKTsfVhDons",
+      "data_id": "0x390cfdafa2427a9f:0x7ba243587deca440",
+      "data_cid": "8908757060241105984",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfdafa2427a9f%3A0x7ba243587deca440&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfdafa2427a9f%3A0x7ba243587deca440&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6325978,
+        "longitude": 77.2214937
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJn3pCoq_9DDkRQKTsfVhDons",
+      "provider_id": "/g/11s1plgyx5",
+      "rating": 4.5,
+      "reviews": 2627,
+      "price": "₹200–600",
+      "extracted_price": 200,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Coffee roastery",
+        "Coffee shop",
+        "Coffee store"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "coffee_roasters",
+        "coffee_shop",
+        "coffee_store"
+      ],
+      "address": "Shop No 11, E Block Mezzanine Floor, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "8 AM–1 AM",
+        "thursday": "8 AM–1 AM",
+        "friday": "8 AM–1 AM",
+        "saturday": "8 AM–1 AM",
+        "sunday": "8 AM–1 AM",
+        "monday": "8 AM–1 AM",
+        "tuesday": "8 AM–1 AM"
+      },
+      "phone": "+91 80957 99943",
+      "website": "https://stores.thirdwavecoffeeroasters.com/store-pages/third-wave-coffee-e-block-connaught-place-new-delhi/",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzMXBsZ3l4NRgBOgMI8A0%3D&g2lbs=AEzIGDtgSNOeF98GkueeA_qnUlYYWHNYAFK-9fwJQ2iPzw4IlbbfuSTLUyEER7JKWASsTkuQzGdi&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl71ZCQVIjc2JVyKXY3DnCQ8SG3p0__FEmflEB2ycPnsZeiOF759k1ChH-wh9onWBB1Ym-k1Mxm6UdPYc0y8IxEYPQDf9HOziDafXUIm1Sphv5rvZJ6Czy_D3A7GAeppOHmyHXU=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/T1N1HXicHcRJDoIwAADAF1VaiSImHti0aAygosCFmFqoSpdYXOoHfYO_MXEO8_2wvld6alkdswetlG1H75reiBQ9Ff2ASG61SgOigbY8vEl3h85BVZDt4wsZLvdmVZR2KIJssl3YCtb1POJNF_lDQ1KhK3pO5s7IvaKAYfBkrhQH30clB1e0fvFxfkpLAs0kfkVlmoWNi5P3OTw2RR5ztFXsMbo9quU4eJs6tD1n4VGlEswNLvLZE0EIAftPgPgBvlRDUA"
     },
     {
       "position": 3,
-      "title": "Third Wave Coffee",
-      "place_id": "EXAMPLE_PLACE_ID_3",
-      "gps_coordinates": { "latitude": 28.6289, "longitude": 77.2201 },
+      "title": "Open House Cafe",
+      "place_id": "ChIJZYWaxTf9DDkRWQYeSawJetw",
+      "data_id": "0x390cfd37c59a8565:0xdc7a09ac491e0659",
+      "data_cid": "15887021271068575321",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd37c59a8565%3A0xdc7a09ac491e0659&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd37c59a8565%3A0xdc7a09ac491e0659&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.634184599999998,
+        "longitude": 77.2205108
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZYWaxTf9DDkRWQYeSawJetw",
+      "provider_id": "/g/11dxddp041",
       "rating": 4.1,
-      "reviews": 640,
+      "reviews": 8273,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Bar & grill",
+        "Chinese restaurant",
+        "Coffee shop",
+        "Italian restaurant",
+        "Mexican restaurant",
+        "North Indian restaurant",
+        "Restaurant"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "bar_and_grill",
+        "chinese_restaurant",
+        "coffee_shop",
+        "italian_restaurant",
+        "mexican_restaurant",
+        "north_indian_restaurant",
+        "restaurant"
+      ],
+      "address": "C Block, C 37, Block C, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "11 AM–1 AM",
+        "thursday": "11 AM–1 AM",
+        "friday": "11 AM–1 AM",
+        "saturday": "11 AM–1 AM",
+        "sunday": "11 AM–1 AM",
+        "monday": "11 AM–1 AM",
+        "tuesday": "11 AM–1 AM"
+      },
+      "phone": "+91 99996 11334",
+      "website": "https://openhousecafe.in/",
+      "description": "Lively gastropub with mixed cuisine. Vibrant pub & restaurant with multicuisine dishes, sports screenings & a dance floor.",
+      "extensions": [
+        {
+          "service_options": [
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great dessert",
+            "Great wine list",
+            "Live music",
+            "Live performances",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Happy hour food",
+            "Hard liquor",
+            "Late-night food",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Lively",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "On-site parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/8OSgMUMiy8I?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlkFl67FZcdjOxUkRMwtkLe6rv8IYUXVLWTRPOIA9qTy97VFBpQcP-qNsWplTt0nrZBVGhoT3jJ5Ld8Vw1sGGSe7Ux-YIrLKEfnI3WbDsnkOQP3daQUADDQ1B79ZWhzafwzgo4BNQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/pK4Q-3icHcRdToMwAADgE5WfoDBMfIAwEEWgrFDhjZVCM2oLtMrcDT3CbmPi9_Ddf5nWi3oyTc4cY5Jy4vRL0Y1IoanQBpGf5rQoQBRQZvBSlQjzOeauF3dkuBTXeq7edz1n1N2-D2lbfzQZRlVZpIG_oh_fa-JwgaQEa67wwpG2xNaFTcIkci6vj9lwaHZbJcmJevUVtOmWvR1HkTr4HCkxF7B0hh7WQRRBO_T8DrNbP-63ST6EOXzebcuyAPufAPEH70xE_A"
+    },
+    {
+      "position": 4,
+      "title": "Cafe Sandoz - N Block, CP",
+      "place_id": "ChIJiQPJ6FX9DDkRVpDdFhXVmlc",
+      "data_id": "0x390cfd55e8c90389:0x579ad51516dd9056",
+      "data_cid": "6312592114267820118",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd55e8c90389%3A0x579ad51516dd9056&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd55e8c90389%3A0x579ad51516dd9056&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.630156099999997,
+        "longitude": 77.2198068
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJiQPJ6FX9DDkRVpDdFhXVmlc",
+      "provider_id": "/g/11k3xs5845",
+      "rating": 4.6,
+      "reviews": 7302,
+      "price": "₹400–1,600",
+      "extracted_price": 400,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "ground floor, N-7, Block N, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "11 AM–1 AM",
+        "thursday": "11 AM–1 AM",
+        "friday": "11 AM–1 AM",
+        "saturday": "11 AM–1 AM",
+        "sunday": "11 AM–1 AM",
+        "monday": "11 AM–1 AM",
+        "tuesday": "11 AM–1 AM"
+      },
+      "phone": "+91 91674 17092",
+      "website": "http://www.sandozrestaurants.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Hard liquor",
+            "Late-night food",
+            "Organic dishes",
+            "Prepared foods",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Gender-neutral restroom",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/dlQmo58DoGQ?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFrM3hzNTg0NRgAOgMI8A0%3D&g2lbs=AEzIGDuuP3DgfapDZQ4q23BLMkfxsBQ3LACpuxP1zxWuc505GgdTnU3xGvUEs16OnjfUFfCw1oZK&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkC3JditIplntlMBaOmX4RI9uRphp9-3sjJIxwhxKDSfXlPvtOSGGiRV-WVkfDQcyP-5vpkgNWchGC4k3_tuZk4_PL3CHkXlcOKOPlU2OZKUAzZM5Agdaq7t48IC1HNIJZFY01J=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eqxvUnicHcRRboIwGADgE1VghUyX7AEhg4LaDqcwXoyp2GorVPsDugvuDLuNyb6H7-9XAhj75jha4onoOqGb3jY33rXQtDDh3cURxiJukXXCtGBfpYpwdjgBMboFvZzv6aXyCzLrCyPNDGF7zsh9lPc8Xh8rzQag6yQ5FVtUbtUx_uQPhoLBKLEquUwiX-Ed9LXyd2yBo1RVmtOcMr15oXW-CX_qZRCKw_76Cv6URF66Iln98e162fvoua6L5P8ctU-XukQe"
+    },
+    {
+      "position": 5,
+      "title": "Warehouse Cafe",
+      "place_id": "ChIJU2Dbcjf9DDkRkxy_f7bRvfM",
+      "data_id": "0x390cfd3772db6053:0xf3bdd1b67fbf1c93",
+      "data_cid": "17563424703572286611",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd3772db6053%3A0xf3bdd1b67fbf1c93&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd3772db6053%3A0xf3bdd1b67fbf1c93&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6338001,
+        "longitude": 77.2209641
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU2Dbcjf9DDkRkxy_f7bRvfM",
+      "provider_id": "/g/11fx7svqdz",
+      "rating": 4.1,
+      "reviews": 10259,
+      "price": "₹2,000+",
+      "extracted_price": 2000,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Lounge bar"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "lounge"
+      ],
+      "address": "gate number 3, CONNAUGHT PLACE, D Block D 19/20, Near, Inner Cir, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "12 PM–1 AM",
+        "thursday": "12 PM–1 AM",
+        "friday": "12 PM–1 AM",
+        "saturday": "12 PM–1 AM",
+        "sunday": "12 PM–1 AM",
+        "monday": "12 PM–1 AM",
+        "tuesday": "12 PM–1 AM"
+      },
+      "phone": "+91 99995 37128",
+      "website": "https://www.warehousecafe.in/",
+      "description": "Lively gastropub with mixed cuisine. Vibrant nightlife hotspot with multicuisine dishes, cocktails, live music & hookahs.",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great dessert",
+            "Great wine list",
+            "Live music",
+            "Live performances",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Happy hour food",
+            "Hard liquor",
+            "Late-night food",
+            "Prepared foods",
+            "Quick bite",
+            "Small plates",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Gender-neutral restroom",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "Google Pay",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/T6_yjg6PwKU?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmeDdzdnFkehgBOgMI8A0%3D&g2lbs=AEzIGDuwEgRaBQEL2exCF9mHEXeiJcIcngypV8-kdsC_4cYdNJAy6YWMeeljCL2KzcuPzeTf3KPT&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkle43M84C1wYBWswoyGguikgNsRcr2581XBdTNYiRoOpZcirYXpXBR-Dw4_iA7Z_jmTDVfIzzwmWIDuTsfpsJw4KEasOZiN-SHuMf3oi6ELOpGprmP5voe6fxVDOh3aKpTN7tbug=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Qsi5FHicHcRJDoIwFADQE1VAcIiJCxHjDAYbpo3RWkoVaMNvrXpDj-BtTHyL9_1USkmYWFZduT0mBKupBtoR0Sraqh4RjcUkIAIIrNkqPuD0XlPP3Y-9uWNyPwUjXkum-Z2FEJOuPxg7mX_FYc5jEcmC8C7PZObHKDDeic9GxenW4CAp1--3adJ1oDGUEjbG2y7OEBU8RMeV3peu4MPFLpJL2TWHwUPQYflMgqhyz1uJw5G6aDY1jm3bqPpPUPsDSV9Grg"
+    },
+    {
+      "position": 6,
+      "title": "TAN COFFEE",
+      "place_id": "ChIJ0Wo1MaH9DDkRQ6TIlVuvXgU",
+      "data_id": "0x390cfda131356ad1:0x55eaf5b95c8a443",
+      "data_cid": "386939425890280515",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfda131356ad1%3A0x55eaf5b95c8a443&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfda131356ad1%3A0x55eaf5b95c8a443&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6346873,
+        "longitude": 77.2183305
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0Wo1MaH9DDkRQ6TIlVuvXgU",
+      "provider_id": "/g/11wj2t87l0",
+      "rating": 4.7,
+      "reviews": 5028,
+      "price": "₹400–1,200",
+      "extracted_price": 400,
       "type": "Coffee shop",
-      "address": "Block A, Connaught Place, New Delhi, Delhi 110001"
+      "types": [
+        "Coffee shop"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop"
+      ],
+      "address": "35/8, H-Block, Connaught Place H-35/5, 35/6 35/7, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "8 AM–1 AM",
+        "thursday": "8 AM–1 AM",
+        "friday": "8 AM–1 AM",
+        "saturday": "8 AM–1 AM",
+        "sunday": "8 AM–1 AM",
+        "monday": "8 AM–1 AM",
+        "tuesday": "8 AM–1 AM"
+      },
+      "phone": "+91 92663 60069",
+      "website": "https://tancoffeeindia.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF3ajJ0ODdsMBgBOgMI8A0%3D&g2lbs=AEzIGDvwCqSPDp_4sE9skYVe2_Pzpeijt_Gv0sBOMoko9g_VoGs7s9p1_oc_9JlmlwYGHp1saAZd&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkbdrVELkuSzWO2TUMLQsrq6sV7BUCradcGpDA0aXQ5w7uACO-psU1qs9QyySi7sb-0rsvqq2YUnN93ByDTUlPlMpUF5kdB08HE4zYWrfkktZpS82aIZk-AfXQb0GqyvEhUfdaWcBa7XGSb=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/DwWxinicHcRJDoIwFADQE1UqDqiJC1BEEyeEArorZTJFaPuLBi_p2tuY-Bbv-6m0FrAwjLoaDcq2Leu8g1yxttF5owesfRilAMQAgWFvL-cw5mmmInfPu-Adn8yQHPY-KDmFyHLIStGMeWJtY5r4k5fV2asTEkCGEuZ-3wd3C1KEFTylNK-kOc5HTr8OSX2uD4JsJjxz8Gzrjt_XWBWc65sIZibd3Tiyi8RPsSf7p1uRIqMxc6iVeEG6fA0xxqj6z1DzA806R6s"
+    },
+    {
+      "position": 7,
+      "title": "Chelvies Coffee | Delhi | CP M Block",
+      "place_id": "ChIJ1VH8ZEP9DDkRzWdECi8frOI",
+      "data_id": "0x390cfd4364fc51d5:0xe2ac1f2f0a4467cd",
+      "data_cid": "16333464235462125517",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd4364fc51d5%3A0xe2ac1f2f0a4467cd&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd4364fc51d5%3A0xe2ac1f2f0a4467cd&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6315125,
+        "longitude": 77.2222955
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ1VH8ZEP9DDkRzWdECi8frOI",
+      "provider_id": "/g/11vr6v574d",
+      "rating": 4.5,
+      "reviews": 2138,
+      "price": "₹400–1,200",
+      "extracted_price": 400,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Coffee roastery",
+        "Coffee shop"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "coffee_roasters",
+        "coffee_shop"
+      ],
+      "address": "M-6, Block M, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 2 AM",
+      "hours": "Open · Closes 2 AM",
+      "operating_hours": {
+        "wednesday": "8:30 AM–2 AM",
+        "thursday": "8:30 AM–2 AM",
+        "friday": "8:30 AM–2 AM",
+        "saturday": "8:30 AM–2 AM",
+        "sunday": "8:30 AM–2 AM",
+        "monday": "8:30 AM–2 AM",
+        "tuesday": "8:30 AM–2 AM"
+      },
+      "phone": "+91 93156 31512",
+      "website": "https://www.chelviescoffee.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Coffee",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/5r1bAg2aeAE?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTF2cjZ2NTc0ZBgBOgMI8A0%3D&g2lbs=AEzIGDs9kQxTm7CNLqcm1U7yLxhUpyIXlw6_YRKTemKH9s9yW9cmVPhC6GT6PjPVRfi1rm-An_jo&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmpk2lQMRNgebs7zaLZez3lsy0WHwThAPYhHWvfQ4Kq1hnUEeslh0uPACgbbIUWkfQumuJLiGfn59Rmhh_zV6UMHXY01otH6l1MmovRI1E5wD1BPXH0RNvnJdqzz6PbxPzvyDk=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XjJSX3icHcTdboIwGADQJ0JanZiZeMGmWXViSiOiuzHCSj9Df9AW0D6g7-DbmHguzvMBzjV2GoYSRgNhjJC8tfxaGu24doPSqFA0NihtYMOYMLrNVVMPZZqwjeCFnfjT-o_7kbR3lJN-CzE9AMm7Kv34vWDQ2YJbCail8bcoimWW11Xaqna1Pv9UevzJFMDR76IsIfsDwsaRSOJEmY4t8WLcz_EX3RPENp1e_V-8j2hxo767z-tZjxFCAbwvA_0Co5FFuQ"
+    },
+    {
+      "position": 8,
+      "title": "Xero Degrees",
+      "place_id": "ChIJZUpBTgb9DDkRDBNJQ6YNQnw",
+      "data_id": "0x390cfd064e414a65:0x7c420da64349130c",
+      "data_cid": "8953734016910562060",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd064e414a65%3A0x7c420da64349130c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd064e414a65%3A0x7c420da64349130c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.633800899999997,
+        "longitude": 77.2170838
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZUpBTgb9DDkRDBNJQ6YNQnw",
+      "provider_id": "/g/11sjp7yvpg",
+      "rating": 4.7,
+      "reviews": 7767,
+      "price": "₹200–600",
+      "extracted_price": 200,
+      "type": "Cafe",
+      "types": [
+        "Cafe"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe"
+      ],
+      "address": "G-9, Ground Floor, Connaught Cir, Block G, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "11 AM–11 PM",
+        "thursday": "11 AM–11 PM",
+        "friday": "11 AM–11 PM",
+        "saturday": "11 AM–11 PM",
+        "sunday": "10 AM–11 PM",
+        "monday": "11 AM–11 PM",
+        "tuesday": "11 AM–11 PM"
+      },
+      "phone": "+91 85272 74473",
+      "website": "https://www.xerodegrees.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Late-night food",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzanA3eXZwZxgBOgMI8A0%3D&g2lbs=AEzIGDtD9Tm0dX8XElHhkt81sLMk1MXSY-TNftlMk5LvfJTTy-MrF6wH2X2_BxwJlNLKtx48awv8&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4xa2bOVQcjqBHMmLAGph5rU4dCvBfLVzkRV9oqaE-X8_ZuQBItoLQvnwV1S5bfz5OiLpXjvFwD6vVtTGM6JLDmHbJA-mGB-BeOVFK854dgR9t-O_fOqwE-NiqvAnxh12BIRI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/DhFug3icHcTdDsEwGADQJ_psYxMkLlY_2yi1ocSNWG2rn7WbVice0Dt4G4lzcb4frnWlBpZ1551WIWVxz54qezApdCZ0i8nSKioFTIGy_DBZbXbCfZ3aKaExu9YoXJTYDyruPbbueWRQjun7ltC-rE8T2PeOh2eMIi1xbERDnbWX5m-PXHC1v5ppM-4aqjfBojvD4zJMZz6UAQKUETqd9zz3XCR9DeSYk7qZwPJSG1-8uNNGURING8e2beD_GYgfDARDjg"
+    },
+    {
+      "position": 9,
+      "title": "Nothing Before Coffee - Connaught Place, New Delhi",
+      "place_id": "ChIJN-AaWyT9DDkRxkcyyraIClQ",
+      "data_id": "0x390cfd245b1ae037:0x540a88b6ca3247c6",
+      "data_cid": "6055802967610771398",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd245b1ae037%3A0x540a88b6ca3247c6&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd245b1ae037%3A0x540a88b6ca3247c6&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6340665,
+        "longitude": 77.2179678
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN-AaWyT9DDkRxkcyyraIClQ",
+      "provider_id": "/g/11ltl7sbys",
+      "rating": 4.7,
+      "reviews": 2398,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop",
+        "Bakery",
+        "Cafe",
+        "Coffee store",
+        "Coffee wholesaler",
+        "Dessert shop",
+        "Fast food restaurant",
+        "Internet cafe",
+        "Takeout Restaurant",
+        "Vegetarian cafe and deli"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop",
+        "bakery",
+        "cafe",
+        "coffee_store",
+        "coffee_wholesaler",
+        "dessert_shop",
+        "fast_food_restaurant",
+        "internet_cafe",
+        "meal_takeaway",
+        "vegetarian_cafe_and_deli"
+      ],
+      "address": "B Block, B-3, Middle Cir, Block B, Connaught Place, New Delhi, Delhi, 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "8 AM–11 PM",
+        "thursday": "8 AM–11 PM",
+        "friday": "8 AM–11 PM",
+        "saturday": "8 AM–11 PM",
+        "sunday": "8 AM–11 PM",
+        "monday": "8 AM–11 PM",
+        "tuesday": "8 AM–11 PM"
+      },
+      "phone": "+91 92519 38080",
+      "website": "https://stores.nothingbeforecoffee.com/nothing-before-coffee-in-delhi-new-delhi-delhi-connaught-place-40249",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Drive-through",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "drive_through": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/9L3UtFqowh8?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFsdGw3c2J5cxgBOgMI8A0%3D&g2lbs=AEzIGDtD_-WnXEQCNDpAkbtGmjrmjA6qWaK32p5eFWvMnRYifp-tKmhDK4PJSsAgTrVVmZaF15ir&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnT0lYq2ROpDcu0L2tZl5XPnQo6ohDAHLSZgXxQoq4iDtjU40E90DXJquujtBBYK5u3V3Qu-sFKeUtOa_zd29XM0KOkFOP_4cXYrFLsH0GJx4TwxKnUCugt7aMX7N7Pq6JCGtn1euR6HLI=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/SArQlXicHcTdboIwGADQJ6p8AkI02YXKEAHlZ7AVb4ypTdGxFuzXSPaQ3vs2Jp6L83y0iL1eWFbXOhOhlOi40fzGlEQuccLUnyV6TZgm2lpGZV79yAq6ZrDLrA-YgdTGQzejuSyUp9pgGaVfB0HHQg3uJcBr7cLnHAIaD8ZccbVqkplxvp3CEB0mvMbsdPw_23O6gyT7DbP86DLa3MJUR7CJR7e6j4ms10agf9pRf-_ngxevNyin3JRelG4_7lMAIO17RuQLFKVF9A"
+    },
+    {
+      "position": 10,
+      "title": "United Coffee House",
+      "place_id": "ChIJhX7CHTf9DDkR86n_kiLOXkg",
+      "data_id": "0x390cfd371dc27e85:0x485ece2292ffa9f3",
+      "data_cid": "5214832066432051699",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd371dc27e85%3A0x485ece2292ffa9f3&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd371dc27e85%3A0x485ece2292ffa9f3&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.632376999999998,
+        "longitude": 77.2213847
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhX7CHTf9DDkR86n_kiLOXkg",
+      "provider_id": "/g/1v6qf_r_",
+      "rating": 4.2,
+      "reviews": 11631,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Asian restaurant",
+        "Breakfast restaurant",
+        "Mughlai restaurant",
+        "Chinese restaurant",
+        "Cocktail bar",
+        "Coffee shop",
+        "European restaurant",
+        "Fast food restaurant",
+        "Indian sizzler restaurant",
+        "Mediterranean restaurant",
+        "North Indian restaurant",
+        "Sandwich shop",
+        "South Indian restaurant"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "asian_restaurant",
+        "breakfast_restaurant",
+        "mughlai_restaurant",
+        "chinese_restaurant",
+        "cocktail_bar",
+        "coffee_shop",
+        "european_restaurant",
+        "fast_food_restaurant",
+        "indian_sizzler_restaurant",
+        "mediterranean_restaurant",
+        "north_indian_restaurant",
+        "sandwich_shop",
+        "south_indian_restaurant"
+      ],
+      "address": "Inner Cir, E-15, Block E, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11:45 PM",
+      "hours": "Open · Closes 11:45 PM",
+      "operating_hours": {
+        "wednesday": "10 AM–11:45 PM",
+        "thursday": "10 AM–11:45 PM",
+        "friday": "10 AM–11:45 PM",
+        "saturday": "10 AM–11:45 PM",
+        "sunday": "10 AM–11:45 PM",
+        "monday": "10 AM–11:45 PM",
+        "tuesday": "10 AM–11:45 PM"
+      },
+      "phone": "+91 11 2341 1697",
+      "website": "http://unitedcoffeehouse.in/",
+      "description": "Sophisticated restaurant for global fare. European, Indian & Asian dishes, plus cocktails and wine, served in a warm, refined atmosphere.",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Live music",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Beer",
+            "Happy hour drinks",
+            "Hard liquor",
+            "Late-night food",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Counter service",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Historic",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Usually a wait"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXY2cWZfcl8YAToDCPAN&g2lbs=AEzIGDu1KduC2iFEY0NBAINZmnMS2ybRDch-WX28sjNHYoTuqpPqSa2oci80cMMUjV-UQ7WDlv-f&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkR4zc0pMdPBODy21Mo9PiSUqJKjmTOrO91iuF-YHWszXnefjrpbceEf9YRv1_llG299_LEWnQ1_4mgoZUS1AIP7gg4o4107Vmae_VtGZb3WrcWiaflZn98iKLmXpW3xtvssW22Cg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/V6GVtnicHcRJDoIwAADAF1VaINGaeHDfA-JS5EK0loJ2k9b1hz7B35g4h_l-SueMbXueKIMG15oLdrOsplo5plyDaulxYwG1wHrdSRJvyCUJ3xSa5SnuRYOXj5Yax9V6e53Nz3IT1RFG1W0E9hNi36lixbk2R8qGBd4nd5QLMfYxzhdDolYoDyXX2XaNutO4yXmoQwSbO3lg-c6Ns2NAakqqQyEyhVvVfCFTQ4Knu1tLfL_POw8EIQTlfwrUD9u_RU4"
+    },
+    {
+      "position": 11,
+      "title": "Farzi Cafe",
+      "place_id": "ChIJhSQX4zb9DDkRWCjFRnNLnyA",
+      "data_id": "0x390cfd36e3172485:0x209f4b7346c52858",
+      "data_cid": "2350680488991336536",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd36e3172485%3A0x209f4b7346c52858&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd36e3172485%3A0x209f4b7346c52858&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6325985,
+        "longitude": 77.2214946
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhSQX4zb9DDkRWCjFRnNLnyA",
+      "provider_id": "/g/11c3vrhtfz",
+      "rating": 4,
+      "reviews": 10351,
+      "type": "Modern Indian restaurant",
+      "types": [
+        "Modern Indian restaurant",
+        "Indian restaurant"
+      ],
+      "type_id": "modern_indian_restaurant",
+      "type_ids": [
+        "modern_indian_restaurant",
+        "indian_restaurant"
+      ],
+      "address": "E-38/39, Inner Cir, Inner Circle, Block E, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "12 PM–1 AM",
+        "thursday": "12 PM–1 AM",
+        "friday": "12 PM–1 AM",
+        "saturday": "12 PM–1 AM",
+        "sunday": "12 PM–1 AM",
+        "monday": "12 PM–1 AM",
+        "tuesday": "12 PM–1 AM"
+      },
+      "phone": "+91 95998 89701",
+      "website": "https://farzicafe.com/",
+      "description": "Lively Indian & continental fusion cafe. Bustling cafe creating fusion Indian and international flavours using molecular gastronomy methods.",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great dessert",
+            "Great wine list",
+            "Live music"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Hard liquor",
+            "Late-night food",
+            "Organic dishes",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/g7KSR4OYB7Q?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFjM3ZyaHRmehgBOgMI8A0%3D&g2lbs=AEzIGDsifb_Lg4VpL76dFPuuLc0SYbpfWA26ouEZxSH-EWz4NzFOvy1pEAu5hoPuPx3Nlh_7zBfG&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmfkRXvPtJfi3Pq01_xjp_lhjhkwGxDP0D9xlK8n0hHEpgMhSb71TIxjYW1679ybAIEns_BNIL7kA8f6O1aPfQqEHVsleWuYFPNGLmIWZK1JYjRT1XMisMSkwhTegcHefOIVtPEfg=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/T1TOs3icHcRdCoIwAADgE5kbQlbQg5HlKnOZpPYiNfaTzqltph2xI3SboO_h-36EMa1e2LYUzoQ3DZe01_RJGmWoMhPS1DZvtUW0pW0viHGS1qyKsxc2O_ZwcAdgMZZtIUUpqmE7rjFYz0e5nykgAr_loTjfXZigscxTOHXn77uHfKWL1REd3MqbsWkEb5idOj-4aEnTPt_g4_ZQo_S6h7u8jBOYhQ8dnqtBJJSTgLIIXQz2GV8OEABgif_EUj8XlUWd"
+    },
+    {
+      "position": 12,
+      "title": "Cafe Delhi Heights",
+      "place_id": "ChIJoaEEyDX9DDkROpxbk37EdOM",
+      "data_id": "0x390cfd35c804a1a1:0xe374c47e935b9c3a",
+      "data_cid": "16389940991825255482",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd35c804a1a1%3A0xe374c47e935b9c3a&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd35c804a1a1%3A0xe374c47e935b9c3a&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.627906799999998,
+        "longitude": 77.2198233
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJoaEEyDX9DDkROpxbk37EdOM",
+      "provider_id": "/g/11f0_5xqfv",
+      "rating": 4.2,
+      "reviews": 4058,
+      "price": "₹400–1,600",
+      "extracted_price": 400,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Coffee shop",
+        "Continental restaurant",
+        "Family restaurant",
+        "Fast food restaurant",
+        "Fine dining restaurant",
+        "Italian restaurant",
+        "Pan-Asian restaurant",
+        "Restaurant",
+        "Snack bar"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "coffee_shop",
+        "continental_restaurant",
+        "family_restaurant",
+        "fast_food_restaurant",
+        "fine_dining_restaurant",
+        "italian_restaurant",
+        "pan_asian_restaurant",
+        "restaurant",
+        "snack_bar"
+      ],
+      "address": "68/1, First Floor, Janpath Rd, Atul Grove Road, Janpath, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 12 AM",
+      "hours": "Open · Closes 12 AM",
+      "operating_hours": {
+        "wednesday": "12 PM–12 AM",
+        "thursday": "12 PM–12 AM",
+        "friday": "12 PM–12 AM",
+        "saturday": "12 PM–12 AM",
+        "sunday": "12 PM–12 AM",
+        "monday": "12 PM–12 AM",
+        "tuesday": "12 PM–12 AM"
+      },
+      "phone": "+91 97110 34033",
+      "website": "https://stores.cafedelhiheights.com/store-pages/cafe-delhi-heights-janpath-new-delhi/",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Live performances",
+            "Rooftop seating",
+            "Sports"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Happy hour food",
+            "Hard liquor",
+            "Healthy options",
+            "Late-night food",
+            "Private dining room",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Catering",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Brunch reservations recommended",
+            "Lunch reservations recommended",
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/E7c6Wooia7Q?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFmMF81eHFmdhgBOgMI8A0%3D&g2lbs=AEzIGDu_jsMTIa7NPJqBnwcRG5B-ecldABGg93FlFgph9BG4MPRjzgH3H-Weg4QZvc6qm_hMvgs4&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnVCOLMbE7BFIFYrErcURjD3QK3yFbSkbnWzsyBYg5b2fTvY3caHGdxo1MeUy4NvKZpN-GD7QkmfTidobpZgWTBr4gW-z9TQbBW1i9XuFnSOY2uVkZd8wppYFESZ1LmnzBtR48=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XxOJaXicHcRbsoIgAADQFZGaNj1m-riUVNNTpQj_Ag3LBEawri6wPbSbZjof5_MurNVm4jiPwu8JpcQjb0xecyVtLm2Pq8oR2gBugHH-lvEBE3ma7TdbFg4hWiFahzU_xve5H639FrGkZJJ0poVUDFj_ip_U55flIvtX3jY_tsHuuU71Dizmw6isrviWKaZTQTCsA0FAN8YRg8S7jc8Nksme9ptTmWajl9YUhUnqbSrZQRsHo-nLc10XFL85kF8UF0Rl"
+    },
+    {
+      "position": 13,
+      "title": "Cha Bar",
+      "place_id": "ChIJAQDAsDb9DDkRvphY_3EnEyc",
+      "data_id": "0x390cfd36b0c00001:0x27132771ff5898be",
+      "data_cid": "2815637562605476030",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd36b0c00001%3A0x27132771ff5898be&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd36b0c00001%3A0x27132771ff5898be&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6312675,
+        "longitude": 77.2233607
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAQDAsDb9DDkRvphY_3EnEyc",
+      "provider_id": "/g/1x5f8r8h",
+      "rating": 4.1,
+      "reviews": 8741,
+      "type": "Tea house",
+      "types": [
+        "Tea house",
+        "Coffee shop"
+      ],
+      "type_id": "tea_house",
+      "type_ids": [
+        "tea_house",
+        "coffee_shop"
+      ],
+      "address": "Upper Ground Floor, Dr. Gopal Das Bhawan, 28, Barakhamba Rd, Connaught Lane, Barakhamba, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 10 PM",
+      "hours": "Open · Closes 10 PM",
+      "operating_hours": {
+        "wednesday": "10 AM–10 PM",
+        "thursday": "10 AM–10 PM",
+        "friday": "10 AM–10 PM",
+        "saturday": "10 AM–10 PM",
+        "sunday": "10 AM–10 PM",
+        "monday": "10 AM–10 PM",
+        "tuesday": "10 AM–10 PM"
+      },
+      "phone": "+91 99109 94865",
+      "website": "https://chabar.in/",
+      "description": "Teas, light meals & cakes for bookworms. Light meals, finger food & cakes served with exotic teas at this book-lovers' cafe.",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        },
+        {
+          "payments": [
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible restroom",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXg1ZjhyOGgYADoDCPAN&g2lbs=AEzIGDtM5X6K_mzOBB-0dvILaME7td3Vwayqu9vEX7IA1YnMWt-l4-rlHZg5Gmn7tsqlcu39nus9&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlvHqr2ff7oK2FdqUDUMnyy5IbfG_Z-sCqZt2nwC6_PoHYPwo1Xchp0q9d73fMOFVBzXPvkJIJZQO-SvnIfWUU9ftgHFiiwiX57iq9pBNgseXwUfE7U_n4t7hl05oGJynvK9Dc=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/QqAO8nicHcRdDoIgAADgE5FkGbOth7JMbZX9UOaLWyTgMpAgmR2wO3Sbtr6H7_vhxjR67Dg1H_SYlKwuX7p8EilMKUyPyIfDGg2IBtqZRvv0eK7bSD1dSpFcueFN4Tlei67z4itdFjnQgcqNK2wwKlIZXVIr-xnhDVT-DQ3oehueZu8sbe9JnOS7LTi0IqZnjH1qWBRWla0yD1XKb2YbpsvMYrpAuBBDg3gNPblMOtGu_DmZ2D6EEPD_BIgfXbdE_g"
+    },
+    {
+      "position": 14,
+      "title": "Caffè Tonino",
+      "place_id": "ChIJCVd4ITj9DDkRvVKGQ1YGcXA",
+      "data_id": "0x390cfd3821785709:0x70710656438652bd",
+      "data_cid": "8102264172186063549",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd3821785709%3A0x70710656438652bd&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd3821785709%3A0x70710656438652bd&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.634999999999998,
+        "longitude": 77.2194444
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCVd4ITj9DDkRvVKGQ1YGcXA",
+      "provider_id": "/g/11b7q16fgk",
+      "rating": 4.3,
+      "reviews": 5700,
+      "price": "₹600–1,800",
+      "extracted_price": 600,
+      "type": "Italian restaurant",
+      "types": [
+        "Italian restaurant",
+        "Bar",
+        "Breakfast restaurant",
+        "Coffee shop",
+        "Pizza restaurant"
+      ],
+      "type_id": "italian_restaurant",
+      "type_ids": [
+        "italian_restaurant",
+        "bar",
+        "breakfast_restaurant",
+        "coffee_shop",
+        "pizza_restaurant"
+      ],
+      "address": "Plaza Cinema Building No 9, Block H, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "8:30 AM–11 PM",
+        "thursday": "8:30 AM–11 PM",
+        "friday": "8:30 AM–11 PM",
+        "saturday": "8:30 AM–11 PM",
+        "sunday": "8:30 AM–11 PM",
+        "monday": "8:30 AM–11 PM",
+        "tuesday": "8:30 AM–11 PM"
+      },
+      "phone": "+91 85279 74888",
+      "website": "https://www.toninoindia.com/",
+      "description": "Tuscan dining in rustic surroundings. Charming, Tuscan villa-style cafe offering authentic Italian dishes, along with a breakfast menu.",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Great wine list",
+            "Live music"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible restroom"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "All you can eat",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Happy hour drinks",
+            "Hard liquor",
+            "Healthy options",
+            "Late-night food",
+            "Organic dishes",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Counter service",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom",
+            "Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Romantic",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Dinner reservations recommended",
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/z8gcna9PSOE?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFiN3ExNmZnaxgBOgMI8A0%3D&g2lbs=AEzIGDtkW4VZwAC_x3a1ErTG8hsRaEs6ED2C83FIwzRwUa4Wd5tE13be_UcmauRidXHeY8wXfbGS&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"A small cafe in CP with wonderful pizza and pasta.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnCfCTIassXh5EBuS_Acj1htDhY1o8Nu2ao1kI7XrKvC6IIBkFT3fzHldCg1V2DCRxQ-fI_brg-NmEP5G5cKEs7QzlbBs7a02ixypAdRObnRxzgxLHvvXF14GHAGO7c_uMau4DM2_RAEq5K=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/X4wQnXicHcTNboMgAADgJ6KKrXVZsgOiVWJ_qdnsyShV2GrBCTjnS_bct1my7_A9H8KYXr86TieWC64U7xqrm4EpaRppFkzdHd5rwDTQDkrpMf-QuMU5qbQuhB-H9lwi9gWFicQFqpe99SoFbyQohmzEa0LC2yZftnPaXTGH716E6XQCLSnrgYP9PT76ic-yWAenuatDHVSu9zn99uhKD7Wk08ynbTqOxQaukhQlh4CVdlfZVbTzSoribz97-4Gu6wLxPwPyD1pQRlA"
+    },
+    {
+      "position": 15,
+      "title": "Chaayos Cafe at Connaught Place",
+      "place_id": "ChIJSUtjYMj9DDkRumu77NHBTLo",
+      "data_id": "0x390cfdc860634b49:0xba4cc1d1ecbb6bba",
+      "data_cid": "13424317696648637370",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfdc860634b49%3A0xba4cc1d1ecbb6bba&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfdc860634b49%3A0xba4cc1d1ecbb6bba&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6311391,
+        "longitude": 77.2200337
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSUtjYMj9DDkRumu77NHBTLo",
+      "provider_id": "/g/11pz1dp085",
+      "rating": 4.1,
+      "reviews": 561,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Bakery",
+        "Chocolate cafe",
+        "Cookie shop",
+        "Juice shop",
+        "Sandwich shop",
+        "Tea house",
+        "Tea store"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "bakery",
+        "chocolate_cafe",
+        "cookie_shop",
+        "juice_shop",
+        "sandwich_shop",
+        "tea_house",
+        "tea_store"
+      ],
+      "address": "F-14/15, Inner Cir, Block F, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "7 AM–11 PM",
+        "thursday": "7 AM–11 PM",
+        "friday": "7 AM–11 PM",
+        "saturday": "7 AM–11 PM",
+        "sunday": "7 AM–11 PM",
+        "monday": "7 AM–11 PM",
+        "tuesday": "7 AM–11 PM"
+      },
+      "phone": "+91 1800 120 2424",
+      "website": "https://chaayos.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection",
+            "Live music"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Late-night food",
+            "Prepared foods",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Gender-neutral restroom",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Meal coupons",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFwejFkcDA4NRgAOgMI8A0%3D&g2lbs=AEzIGDsNmhGSyoLIxPmYLGjsSvNP6lQrXbEIGv8Afg-5BLMb3UZAiS6twziAvIv4oO8OPqTCSyiW&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "user_review": "\"Customizable tea, peaceful ambiance, nice snacks, polite service\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnvkj2ktDBubww_NmDGjMWwh0CzBIzRbb1LfYJ8bjhj6zpSkSEkwQ33qkm62wttP26JY2Y3PWDXrfAua0O84jz-6MXGwzY2OYMVdy3R-f9_rMq1InV7NejMMGd8KBZ8lOhl0IFJ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/cjwE8HicHcRRboIwAADQE1VKuzA08UPGxmBWEBex-zEDgaaFgrTY2At6ht1mie_j_T2Y1qNaOU7H8KIdhrarZ1VP1SB1LfWiGnqnHRWoFFDO5jPPvgt5ExwJHQZzacx514cRJ4Vh8M0Gsc3L0t02NPFLzrhnx4M4vAuzx_gqeg8ZrTPkJRRRnBXhaWo28y9M_RdugUdOkbEUpZQcL3ecg2Z5nsjVjeXxdVdzQqKL_xX8-F3KOhh_JGvjQggBe14B-Q-af0Q5"
+    },
+    {
+      "position": 16,
+      "title": "Chaayos Cafe - Connaught Place, M Block",
+      "place_id": "ChIJQ2on-Tb9DDkRd_muXoI-9BQ",
+      "data_id": "0x390cfd36f9276a43:0x14f43e825eaef977",
+      "data_cid": "1509900504731154807",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd36f9276a43%3A0x14f43e825eaef977&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd36f9276a43%3A0x14f43e825eaef977&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.631518099999997,
+        "longitude": 77.2223429
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ2on-Tb9DDkRd_muXoI-9BQ",
+      "provider_id": "/g/11ckkxjlb4",
+      "rating": 4.1,
+      "reviews": 8501,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Bakery",
+        "Chocolate cafe",
+        "Coffee shop",
+        "Cookie shop",
+        "Juice shop",
+        "Sandwich shop",
+        "Tea house",
+        "Tea store"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "bakery",
+        "chocolate_cafe",
+        "coffee_shop",
+        "cookie_shop",
+        "juice_shop",
+        "sandwich_shop",
+        "tea_house",
+        "tea_store"
+      ],
+      "address": "Plot no 3, 1st Floor, M - 66, Block M, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "8 AM–11 PM",
+        "thursday": "8 AM–11 PM",
+        "friday": "8 AM–11 PM",
+        "saturday": "8 AM–11 PM",
+        "sunday": "8 AM–11 PM",
+        "monday": "8 AM–11 PM",
+        "tuesday": "8 AM–11 PM"
+      },
+      "phone": "+91 1800 120 2424",
+      "website": "https://chaayos.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Curbside pickup",
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection",
+            "Live music"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Late-night food",
+            "Prepared foods",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Gender-neutral restroom",
+            "Restroom",
+            "Wi-Fi",
+            "Free Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "LGBTQ+ friendly",
+            "Tourists"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "Meal coupons",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Paid parking lot"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Assistive hearing loop",
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFja2t4amxiNBgAOgMI8A0%3D&g2lbs=AEzIGDshtECW_V-MXiGFIfJW-CRWPvIutcRWy63hcxv_FfE_VOQg8p3higRmA-KxrfY9_CUPERh2&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmy2-s3jKnqzR6L1x327FE5lt620ljACwP6bR4Eg8ULU-rBNJKOPQcpUHSL5uiNRQj5OIc0HqZXZV7OPso27cXo_SjIyMigTWFj-yK40tXpaGtII43d_CgZwqLs6H0aqnArlG2q=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/jzgRxXicHcRdDoIgAADgE5GEf62tB2uWpqWZlvPFFTmMEYjQzC7YGbpNW9_D9_20WndqbhisNSdECMKap2p6LLhuuJ5g8TBIpwBWQBlekKX5-TEioEwacfnOnHj6MpG79m2mHQQZ9VZD6lwzyyezIi5Av9xvoyQ94K4IjrH9vO-zA7WTEMNAVmV1cpNUCeTiUtRHGo67O8nPawrGyIK67C4bHYaWeatXpBpkrJwAXiT3erZBcjFMIYSg_Y8B_wGlU0MX"
+    },
+    {
+      "position": 17,
+      "title": "Starbucks - Cannaught Place",
+      "place_id": "ChIJHbDBfDb9DDkR0LuEc0pARFU",
+      "data_id": "0x390cfd367cc1b01d:0x5544404a7384bbd0",
+      "data_cid": "6144106480150035408",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd367cc1b01d%3A0x5544404a7384bbd0&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd367cc1b01d%3A0x5544404a7384bbd0&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.630357999999998,
+        "longitude": 77.220581
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHbDBfDb9DDkR0LuEc0pARFU",
+      "provider_id": "/g/1s04b5sws",
+      "rating": 4.4,
+      "reviews": 7900,
+      "price": "₹200–1,000",
+      "extracted_price": 200,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop",
+        "Cafe",
+        "Coffee store",
+        "Restaurant",
+        "Snack bar",
+        "Vegetarian cafe and deli"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop",
+        "cafe",
+        "coffee_store",
+        "restaurant",
+        "snack_bar",
+        "vegetarian_cafe_and_deli"
+      ],
+      "address": "Shop No 16, Connaught Cir, Block N, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 1 AM",
+      "hours": "Open · Closes 1 AM",
+      "operating_hours": {
+        "wednesday": "8 AM–1 AM",
+        "thursday": "8 AM–1 AM",
+        "friday": "8 AM–1 AM",
+        "saturday": "8 AM–1 AM",
+        "sunday": "8 AM–1 AM",
+        "monday": "8 AM–1 AM",
+        "tuesday": "8 AM–1 AM"
+      },
+      "phone": "+91 1860 266 0010",
+      "website": "https://stores.starbucks.in/store-pages/starbucks-new-delhi-11/",
+      "description": "Iconic coffeehouse chain. Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Healthy options",
+            "Quick bite",
+            "Small plates",
+            "Vegan options",
+            "Vegetarian options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dessert",
+            "Seating"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom",
+            "Wi-Fi"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiYKJOICITIfEhgiFtLX29IPEAoML2cvMXMwNGI1c3dzGAA6AwjwDQ%3D%3D&g2lbs=AEzIGDucAloDHO9VrW9lp1bWCbtpUbIsNajRT7QTkt2jEhjlA8YeS_RIXwQIzjWhIyWxf5tEvVpM&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm5oquxuhH2sL12280Qwmrzp_NDpVCQE0fL9jPMSpbfI0Bh4JMu7eH8BwvQz9TEWXgjrdO1FTHEhvqh33AVKkpZ3lHoqkhO6VgUGzKCgtCX7naJFSiJhpq_OonzysFKbNXPQVtPEw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/NTgwynicHcTdEoFAGADQJ0pb-Z9xkZRVqEgaN4ZkP9Tu1m6iN_QI3saMc3G-H5CSi7Gq5mB0CGMkz2qRVSmjMqOyk7JCJVwoqVCEauJNEO2LHivrVw1YF0tN14cobIqq5cf1jMdWaKPrcnQPVlt-vi7QFLruqh5keDhtnmE7iux9Qu7VxdecCNvwLMEwzNh78IORY1Y-wO_HZDdvPYtIKxnQk-tsby7w8ugz2r6F453XSRDGMrCbSaMhhBT4nyr0B_rBRgY"
+    },
+    {
+      "position": 18,
+      "title": "The Immigrant Café",
+      "place_id": "ChIJXyn46zf9DDkRNDwetzt4xfA",
+      "data_id": "0x390cfd37ebf8295f:0xf0c5783bb71e3c34",
+      "data_cid": "17349405337385319476",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd37ebf8295f%3A0xf0c5783bb71e3c34&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd37ebf8295f%3A0xf0c5783bb71e3c34&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6341687,
+        "longitude": 77.2188697
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXyn46zf9DDkRNDwetzt4xfA",
+      "provider_id": "/g/11b6vhk618",
+      "rating": 3.9,
+      "reviews": 2395,
+      "type": "Cafe",
+      "types": [
+        "Cafe",
+        "Bar & grill",
+        "Continental restaurant",
+        "Italian restaurant",
+        "Mediterranean restaurant",
+        "North Indian restaurant",
+        "Restaurant"
+      ],
+      "type_id": "cafe",
+      "type_ids": [
+        "cafe",
+        "bar_and_grill",
+        "continental_restaurant",
+        "italian_restaurant",
+        "mediterranean_restaurant",
+        "north_indian_restaurant",
+        "restaurant"
+      ],
+      "address": "B-45, First Floor, Inner Circle, Connaught Place, New Delhi, India, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 12 AM",
+      "hours": "Open · Closes 12 AM",
+      "operating_hours": {
+        "wednesday": "12 PM–12 AM",
+        "thursday": "12 PM–12 AM",
+        "friday": "12 PM–12 AM",
+        "saturday": "12 PM–12 AM",
+        "sunday": "12 PM–12 AM",
+        "monday": "12 PM–12 AM",
+        "tuesday": "12 PM–12 AM"
+      },
+      "phone": "+91 99993 11224",
+      "description": "Casual history-themed coffee shop & bar. Relaxed, brick-walled coffee shop & bar paying homage to settlers in Delhi.",
+      "extensions": [
+        {
+          "service_options": [
+            "Outdoor seating",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great beer selection",
+            "Great dessert",
+            "Live music",
+            "Live performances"
+          ]
+        },
+        {
+          "popular_for": [
+            "Lunch",
+            "Dinner",
+            "Solo dining"
+          ]
+        },
+        {
+          "offerings": [
+            "Alcohol",
+            "Beer",
+            "Cocktails",
+            "Coffee",
+            "Dancing",
+            "Food",
+            "Food at bar",
+            "Happy hour drinks",
+            "Happy hour food",
+            "Hard liquor",
+            "Late-night food",
+            "Quick bite",
+            "Small plates",
+            "Wine"
+          ]
+        },
+        {
+          "dining_options": [
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Seating",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Bar onsite",
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "High chairs"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true
+      },
+      "reserve_a_table": "https://www.google.com/maps/reserve/v/dine/c/jN_rWi92XgM?source=pa&opi=79508299&hl=en-US&gei=KHqqasSKDeSm2roPka6WoAs&ahbb=1&sourceurl=https://www.google.com/search?hl%3Den%26pb%3D!4m8!1m3!1d0!2d0!3d0!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!2s1i:0,t:11886,p:Y4wth5NkaGMyIZM_cGE89YWF6h9qkws:2!7e81!12e5!17sY4wth5NkaGMyIZM_cGE89YWF6h9qkws:55!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1%26tbm%3Dmap%26q%3Dcafes%2Bnear%2BConnaught%2BPlace,%2BNew%2BDelhi",
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFiNnZoazYxOBgBOgMI8A0%3D&g2lbs=AEzIGDsyk9FG6p0KZ1wCXdwOhbrLWoec1PZCEF23RNV2eAc9DOW1NCpjBv4m_KWYs69QN6LxZ3Sn&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnsypt5gXTOpm2cx3rciq_JQ925ofpWY-xezKFVXxs8I9UR0BheGpkUKfC6k-sGRt2C8yT8pMrvy6JgmpMiLO8efldXI2kxNrRxY_QhXC6ZVPjKWMK3bgvq_B7P_YwlLgEPF-x0_Q=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/zCtEpXicHcRJDoIwAADAF1UqREQTD0pcEVmCAl6aWEurLK20YvGHPsHfmDiH-X6YUkJODaNi1oByTivylKTFvFGkUQPMa4MKCbAE0phv4jBJG9kLNaJZEojaxNpq8e2BdtHEHPFCpDnQ5O2tTpmWznZyjOGCkbUoj17h2iWQ61iZrtMnjvDbrrd3tBb-bR84pKiu2dYs9aGNdY4ilrn2-RTevdT3rAvtHmgxDlH-qvZ0Ga6AhiiavYYQQsD-Y9D8AGBrRiw"
+    },
+    {
+      "position": 19,
+      "title": "Blue Tokai Coffee Roasters | Connaught Place, N Block",
+      "place_id": "ChIJG7f2CaIDDTkRL7zKdwHroCk",
+      "data_id": "0x390d03a209f6b71b:0x29a0eb0177cabc2f",
+      "data_cid": "2999655743366020143",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390d03a209f6b71b%3A0x29a0eb0177cabc2f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390d03a209f6b71b%3A0x29a0eb0177cabc2f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.6310385,
+        "longitude": 77.22197349999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG7f2CaIDDTkRL7zKdwHroCk",
+      "provider_id": "/g/11s7d48d4w",
+      "rating": 4.2,
+      "reviews": 1066,
+      "price": "₹200–600",
+      "extracted_price": 200,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop",
+        "Cafe",
+        "Coffee roastery"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop",
+        "cafe",
+        "coffee_roasters"
+      ],
+      "address": "Shop No 44, Building, N Block, Connaught Cir, Block N, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 11 PM",
+      "hours": "Open · Closes 11 PM",
+      "operating_hours": {
+        "wednesday": "7:30 AM–11 PM",
+        "thursday": "7:30 AM–11 PM",
+        "friday": "7:30 AM–11 PM",
+        "saturday": "7:30 AM–11 PM",
+        "sunday": "7:30 AM–11 PM",
+        "monday": "7:30 AM–11 PM",
+        "tuesday": "7:30 AM–11 PM"
+      },
+      "phone": "+91 70429 79993",
+      "website": "https://stores.bluetokaicoffee.com/blue-tokai-coffee-roasters-connaught-place-n-block-cafe-connaught-place-new-delhi-436799/Home?utm_source=locator&utm_medium=googleplaces",
+      "extensions": [
+        {
+          "service_options": [
+            "No-contact delivery",
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great dessert",
+            "Great tea selection"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids"
+          ]
+        },
+        {
+          "parking": [
+            "Free parking lot",
+            "Free street parking",
+            "Paid parking lot",
+            "Paid street parking",
+            "Usually plenty of parking"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "no_contact_delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EicKJeICIjIgEhkiF9LX29IPEQoNL2cvMTFzN2Q0OGQ0dxgAOgMI8A0%3D&g2lbs=AEzIGDt8N8HCCUdGE_RWpItcwulvhI8btP7oNG5Uqy6G4jDEVRwQz49-VJi8y-nfJA4cr2ztr_9r&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkicwB71ZK-3IP9Rx6SbovHcgQ87zS-fN7xWQ3BdMQ2zoGnAgtbK7_1uSvYcxhtzemi2jguwUnfDK4rd06XZF9juv4vQMQk0vDvOk008X3HGO3CUW8GSPa_YkmsLCGNC0apmoZZ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/dfYOxnicHcRRCoIwAADQE01nk7SgDzPSsMxlYvkjtmyauUmbU7xgZ-g2Qe_jfT-VlJ1Y6vqrQhrlnL7KXpRvwpksmdQIb3XaCUAEELrjn6Jz2tRkWFtGFgC0ixancR7fuPIJxbY1xeARWmOK0fp-wLOJe8yh8hZYudHH6krGSk5lW8-etB8S9tgE5vsO55dsu3j2ylT4gBuoNurYQGhfkO8dkZukthdHRX5tWrF3vdCFRdfyLFsNBoQQVP8JYD84vkQy"
+    },
+    {
+      "position": 20,
+      "title": "Indian Coffee House",
+      "place_id": "ChIJv-Jhvkn9DDkROyTZRoJrENw",
+      "data_id": "0x390cfd49be61e2bf:0xdc106b8246d9243b",
+      "data_cid": "15857292495250072635",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd49be61e2bf%3A0xdc106b8246d9243b&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd49be61e2bf%3A0xdc106b8246d9243b&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 28.630829,
+        "longitude": 77.2158515
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJv-Jhvkn9DDkROyTZRoJrENw",
+      "provider_id": "/g/1td089km",
+      "rating": 3.7,
+      "reviews": 5698,
+      "price": "₹200–400",
+      "extracted_price": 200,
+      "type": "Coffee shop",
+      "types": [
+        "Coffee shop",
+        "Breakfast restaurant",
+        "Restaurant"
+      ],
+      "type_id": "coffee_shop",
+      "type_ids": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "restaurant"
+      ],
+      "address": "2nd Floor, Mohan Singh Place, Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001, India",
+      "country": "India",
+      "open_state": "Open · Closes 9 PM",
+      "hours": "Open · Closes 9 PM",
+      "operating_hours": {
+        "wednesday": "8:30 AM–9 PM",
+        "thursday": "8:30 AM–9 PM",
+        "friday": "8:30 AM–9 PM",
+        "saturday": "8:30 AM–9 PM",
+        "sunday": "8:30 AM–9 PM",
+        "monday": "8:30 AM–9 PM",
+        "tuesday": "8:30 AM–9 PM"
+      },
+      "phone": "+91 11 2334 2994",
+      "website": "http://www.indiancoffeehouse.com/",
+      "description": "Basic spot with South Indian fare. This no-nonsense, long-running coffee shop whips up dosas & other South Indian eats.",
+      "extensions": [
+        {
+          "service_options": [
+            "Delivery",
+            "Onsite services",
+            "Takeout",
+            "Dine-in"
+          ]
+        },
+        {
+          "highlights": [
+            "Great coffee",
+            "Great tea selection",
+            "Rooftop seating"
+          ]
+        },
+        {
+          "popular_for": [
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Solo dining",
+            "Good for working on laptop"
+          ]
+        },
+        {
+          "accessibility": [
+            "Wheelchair accessible seating"
+          ]
+        },
+        {
+          "offerings": [
+            "Coffee",
+            "Quick bite",
+            "Small plates",
+            "Vegan options"
+          ]
+        },
+        {
+          "dining_options": [
+            "Breakfast",
+            "Brunch",
+            "Lunch",
+            "Dinner",
+            "Dessert",
+            "Table service"
+          ]
+        },
+        {
+          "amenities": [
+            "Restroom"
+          ]
+        },
+        {
+          "atmosphere": [
+            "Casual",
+            "Cozy",
+            "Historic",
+            "Quiet",
+            "Trendy",
+            "Upscale"
+          ]
+        },
+        {
+          "crowd": [
+            "College students",
+            "Family-friendly",
+            "Groups",
+            "Tourists"
+          ]
+        },
+        {
+          "payments": [
+            "Credit cards",
+            "Debit cards",
+            "NFC mobile payments"
+          ]
+        },
+        {
+          "children": [
+            "Good for kids",
+            "Kids' menu"
+          ]
+        },
+        {
+          "parking": [
+            "Paid parking lot",
+            "Paid street parking"
+          ]
+        }
+      ],
+      "unsupported_extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        },
+        {
+          "planning": [
+            "Accepts reservations"
+          ]
+        }
+      ],
+      "service_options": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true
+      },
+      "order_online": "https://www.google.com/searchviewer/42?cvd=CLw_EiUKI-ICIDIeEhciFdLX29IPDwoLL2cvMXRkMDg5a20YAToDCPAN&g2lbs=AEzIGDtbnXICk9l6oFKjX8useZ7f9Y2QHE7G6M6XRDWA5h_cZP2sNudVGt-jHPRVxyZ_swPd4qFY&hl=en-US&gl=us&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=KHqqasSKDeSm2roPka6WoAs&ei=KHqqasSKDeSm2roPka6WoAs&fo_s=OA,SOE&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjAF2pHXfJqozs1Wku9LNNHrQ_BXYSvuYdhMMnTMt3pCnLigyYECFnTKN-qNQl9lA1bOLM-97ziq4iEKDwDU6-P4FaHC0uXYtd_rRqNOThU0memiLmfyVzv764m_kVZ4QrbWpv9g=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/aUR2J3icHcRJDoIwAADAF1WKEgwmHhAlRKGKIosXIogtShdowcgPfYK_MXEO8_0QpYRcaFpDZhPMOW6qXlZdyZmqmJqUnGpYSFBKIDXbOx6ihD1sdyq89L5t-Sj15NlbPkJeF-arNDsNfXYjQcCiQM2Ew_wav7ON47Joh0CLwsZqbL3Y-wGw5mPdGvVmt36tzyY4GO7Vc2CfZuqWd8cW7SNyhrSitU_v73gc5qZB82d8McKuSMRg4eVLhxAC8r8E7AcPXkXG"
     }
   ],
-  "serpapi_pagination": { "next": "https://serpapi.com/search?start=20" }
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&q=cafes+near+Connaught+Place%2C+New+Delhi&start=20&type=search"
+  }
 }

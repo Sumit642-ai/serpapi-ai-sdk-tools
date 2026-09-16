@@ -33,8 +33,16 @@ const FIXTURES_DIR = join(
   "fixtures",
 );
 
-/** A SerpApi key is 64 lowercase hex characters. Used as a final tripwire. */
+/** A SerpApi key is 64 lowercase hex characters. Used to sanity-check the key. */
 const KEY_SHAPED = /\b[0-9a-f]{64}\b/;
+
+/**
+ * The same shape, for counting occurrences in a response.
+ *
+ * Deliberately separate: a regex with the `g` flag remembers its position
+ * between `.test()` calls, which would make the key check above unreliable.
+ */
+const KEY_SHAPED_ALL = /\b[0-9a-f]{64}\b/g;
 
 /** Dates are generated so a re-run years from now still searches the future. */
 function daysFromToday(days: number): string {
@@ -231,35 +239,74 @@ async function record(
   const cleaned = scrub(body, apiKey);
   const serialised = `${JSON.stringify(cleaned, null, 2)}\n`;
 
-  // Final tripwire. If anything key-shaped survived the scrub, write nothing —
-  // a missing fixture is a much smaller problem than a committed key.
-  if (serialised.includes(apiKey) || KEY_SHAPED.test(serialised)) {
-    console.log("FAILED (something key-shaped survived scrubbing; nothing written)");
+  // Final tripwire. Both of these are definitive leaks, so write nothing — a
+  // missing fixture is a much smaller problem than a committed credential.
+  if (serialised.includes(apiKey) || /api_key/i.test(serialised)) {
+    console.log("FAILED (a credential survived scrubbing; nothing written)");
     return "failed";
   }
 
   writeFileSync(join(FIXTURES_DIR, recording.file), serialised, "utf8");
 
+  // A 64-hex run has the same shape as a SerpApi key, but Google's own payloads
+  // are full of long hex ids, so this is worth mentioning and not worth
+  // failing on. The two checks above are what actually guard the key.
+  const hexRuns = serialised.match(KEY_SHAPED_ALL)?.length ?? 0;
+  const note = hexRuns > 0 ? ` [${hexRuns} hex id(s), not the key]` : "";
+
   const sizeKb = (Buffer.byteLength(serialised) / 1024).toFixed(1);
-  console.log(`saved ${recording.file} (${sizeKb} KB)`);
+  console.log(`saved ${recording.file} (${sizeKb} KB)${note}`);
   return "saved";
+}
+
+/**
+ * Works out which engines to record.
+ *
+ * Any non-flag argument filters the list, so re-recording one fixture after a
+ * fix costs a single credit instead of six:
+ *
+ *   npm run fixtures -- news
+ *   npm run fixtures -- flights hotels
+ */
+function selectRecordings(): typeof RECORDINGS {
+  const filters = process.argv.slice(2).filter((argument) => !argument.startsWith("--"));
+  if (filters.length === 0) return RECORDINGS;
+
+  const selected = RECORDINGS.filter((recording) =>
+    filters.some(
+      (filter) =>
+        recording.engine.includes(filter.toLowerCase()) ||
+        recording.file.startsWith(filter.toLowerCase()),
+    ),
+  );
+
+  if (selected.length === 0) {
+    console.error(
+      `\nNothing matched ${filters.join(", ")}.\n\n` +
+        `Available: ${RECORDINGS.map((recording) => recording.file.replace(".json", "")).join(", ")}\n`,
+    );
+    process.exit(1);
+  }
+
+  return selected;
 }
 
 async function main(): Promise<void> {
   loadEnvFile();
   const apiKey = resolveApiKey();
+  const recordings = selectRecordings();
 
   mkdirSync(FIXTURES_DIR, { recursive: true });
 
   console.log(
-    `\nRecording ${RECORDINGS.length} real SerpApi searches (${RECORDINGS.length} credits).\n` +
-      `Existing fixtures in test/fixtures will be overwritten.\n`,
+    `\nRecording ${recordings.length} real SerpApi search(es) (${recordings.length} credits).\n` +
+      `Existing fixtures for these engines will be overwritten.\n`,
   );
 
   let saved = 0;
   let failed = 0;
 
-  for (const recording of RECORDINGS) {
+  for (const recording of recordings) {
     const outcome = await record(recording, apiKey);
     if (outcome === "saved") saved += 1;
     else failed += 1;
@@ -268,7 +315,7 @@ async function main(): Promise<void> {
   // Only a search that actually ran costs a credit. A rejected request does not
   // perform a search, so reporting the full count would overstate the damage.
   console.log(`\nDone. ${saved} saved, ${failed} failed.`);
-  console.log(`Search credits used: ${saved}.`);
+  console.log(`Search credits used: ${saved} of ${recordings.length} attempted.`);
 
   if (failed > 0) {
     console.log(

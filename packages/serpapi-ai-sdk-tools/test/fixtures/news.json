@@ -1,50 +1,1507 @@
 {
-  "search_metadata": {
-    "id": "handwritten-fixture",
-    "status": "Success"
-  },
   "search_parameters": {
     "engine": "google_news",
-    "q": "ISRO",
     "gl": "in",
-    "hl": "en"
+    "hl": "en",
+    "q": "ISRO"
   },
   "news_results": [
     {
       "position": 1,
-      "title": "ISRO completes key test for next lunar mission",
+      "title": "ISRO Staff Step Up Privatisation Protest",
       "source": {
-        "name": "The Hindu",
-        "icon": "https://lh3.googleusercontent.com/example-icon",
-        "authors": ["Staff Reporter"]
+        "name": "Rediff",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Venkatachari Jagannathan"
+        ]
       },
-      "link": "https://www.thehindu.com/sci-tech/example-isro-test/",
-      "thumbnail": "https://news.google.com/api/attachments/example=w280-h168",
-      "date": "09/14/2026, 07:00 AM, +0530 IST",
-      "iso_date": "2026-09-14T01:30:00Z"
+      "link": "https://www.rediff.com/news/report/isro-staff-step-up-privatisation-protest/20260915.htm",
+      "thumbnail": "https://im.rediff.com/1600-900/news/2026/sep/15isro-staff1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBXRmR0UXpaRVFVb3hRMVkzVFJDZkF4ampCU2dLTWdrSlFJN0Z0YVlXS1FJ",
+      "date": "09/15/2026, 04:58 AM, +0000 UTC",
+      "iso_date": "2026-09-15T04:58:16Z"
     },
     {
       "position": 2,
-      "title": "Grouped coverage heading",
-      "stories": [
-        {
-          "position": 1,
-          "title": "Gaganyaan crew module clears splashdown trial",
-          "source": { "name": "Indian Express" },
-          "link": "https://indianexpress.com/article/example-gaganyaan/",
-          "date": "09/13/2026, 06:15 PM, +0530 IST",
-          "iso_date": "2026-09-13T12:45:00Z"
-        },
-        {
-          "position": 2,
-          "title": "What the splashdown trial means for 2027",
-          "source": { "name": "Mint" },
-          "link": "https://www.livemint.com/science/example-analysis",
-          "date": "09/13/2026, 08:40 PM, +0530 IST",
-          "iso_date": "2026-09-13T15:10:00Z"
-        }
-      ]
+      "title": "ISRO, DRDO and the Rise of India’s Military-Industrial Complex",
+      "source": {
+        "name": "orfonline.org",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.orfonline.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Sameer Patil"
+        ]
+      },
+      "link": "https://www.orfonline.org/research/isro-drdo-and-the-rise-of-india-s-military-industrial-complex",
+      "thumbnail": "https://www.orfonline.org/public/uploads/posts/image/1789451323_img--Military-Industrial.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVhVWRUV2xkYVFWVkxZemR2VFJEUUF4aVVCU2dLTWdhQmtJVFdWQU0",
+      "date": "09/15/2026, 07:27 AM, +0000 UTC",
+      "iso_date": "2026-09-15T07:27:49Z"
+    },
+    {
+      "position": 3,
+      "title": "Private players should not replicate ISRO’s efforts: G Madhavan Nair writes",
+      "source": {
+        "name": "The News Minute",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "G. Madhavan Nair"
+        ]
+      },
+      "link": "https://www.thenewsminute.com/news/private-players-should-not-replicate-isros-efforts-g-madhavan-nair-writes",
+      "thumbnail": "https://cf-images.assettype.com/thenewsminute/2026-09-16/dnxu43j4/320845059344c68e0e7af.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNUJZV1pWUzI5TlFqZHllVFZOVFJEN0FoaW9CaWdLTWd1QlFZSWx2ZUxZOU5nWUh3",
+      "date": "09/16/2026, 10:48 AM, +0000 UTC",
+      "iso_date": "2026-09-16T10:48:07Z"
+    },
+    {
+      "position": 4,
+      "title": "Artemis: Isro-led talks spur wider push to open up moon science data",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Chethan Kumar"
+        ]
+      },
+      "link": "https://timesofindia.indiatimes.com/science/artemis-isro-led-talks-spur-wider-push-to-open-up-moon-science-data/articleshow/134271117.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-134271179,width-1280,height-720,imgsize-99372,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBWRWw2VEROTVJEWkZWMUp0VFJDZkF4ampCU2dLTWdZVk41Wm9uZ2s",
+      "date": "09/15/2026, 06:11 PM, +0000 UTC",
+      "iso_date": "2026-09-15T18:11:00Z"
+    },
+    {
+      "position": 5,
+      "title": "From satellites to space stations: How Isro is rewriting India’s space ambitions",
+      "source": {
+        "name": "Firstpost",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.firstpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Anindita Mahapatra"
+        ]
+      },
+      "link": "https://www.firstpost.com/explainers/from-satellites-to-space-stations-how-isro-is-rewriting-indias-space-ambitions-14045993.html",
+      "thumbnail": "https://images.firstpost.com/uploads/2026/09/isro1-2026-09-4444ee19feaba628449db873bea29da5.jpg?im=FitAndFill,width=1200,height=675",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZRbXBHVW5CcU5HSkVlamh0VFJDZkF4ampCU2dLTWdrTmNaQkl2dVkxN0FF",
+      "date": "09/15/2026, 08:20 AM, +0000 UTC",
+      "iso_date": "2026-09-15T08:20:25Z"
+    },
+    {
+      "position": 6,
+      "title": "Isro's challenge: Indian space station as ISS successor",
+      "source": {
+        "name": "The New Indian Express",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.newindianexpress.com/editorial/2026/Sep/14/isros-challenge-indian-space-station-as-iss-successor",
+      "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2026-09-14%2Fskrfj635%2Fnewindianexpress2025-08-22266n2malPTI08222025000216B.avif?rect=0%2C75%2C1024%2C576&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFObXROTUVRNE0ycEpRMEo2VFJDZkF4ampCU2dLTWdhVlk0YXFzUWM",
+      "date": "09/14/2026, 09:41 PM, +0000 UTC",
+      "iso_date": "2026-09-14T21:41:33Z"
+    },
+    {
+      "position": 7,
+      "title": "ISRO Recruitment 2026: Apply For 22 Technical Assistant, Technician And Other Posts",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Priyanka Negi"
+        ]
+      },
+      "link": "https://www.ndtv.com/education/isro-recruitment-2026-apply-for-22-technical-assistant-technician-and-other-posts-12050572",
+      "thumbnail": "https://c.ndtvimg.com/2025-11/n62f7vrc_isro-nrsc-recruitment-2025_625x300_13_November_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDFhRUZ0VDA1RFVTMXFjbkpuVFJDZkF4ampCU2dLTWdhVlZJem9yUVU",
+      "date": "09/15/2026, 02:54 PM, +0000 UTC",
+      "iso_date": "2026-09-15T14:54:55Z"
+    },
+    {
+      "position": 8,
+      "title": "ISRO recruitment 2026: Applications open for 22 posts, check eligibility and selection process",
+      "source": {
+        "name": "India Today",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://bestcolleges.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://bestcolleges.indiatoday.in/latest-news/isro-recruitment-2026-applications-open-for-22-posts-check-eligibility-and-selection-process-11566",
+      "thumbnail": "https://static-bestcolleges.tosshub.com/2026/News/JfMzMB55e6Y9EVNxILmyiWLp5UHFbsIm3nwXvCPs.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNUhTVTFhY25GTldEWkZSa3hsVFJDZkF4ampCU2dLTWd1VkE0Q0tiZUJCUU10YVhB",
+      "date": "09/16/2026, 04:53 AM, +0000 UTC",
+      "iso_date": "2026-09-16T04:53:08Z"
+    },
+    {
+      "position": 9,
+      "title": "IN-SPACe's Growing Role Raises ISRO Concerns",
+      "source": {
+        "name": "Rediff",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Venkatachari Jagannathan"
+        ]
+      },
+      "link": "https://www.rediff.com/news/report/in-spaces-growing-role-raises-isro-concerns/20260916.htm",
+      "thumbnail": "https://im.rediff.com/1600-900/news/2026/aug/10v-narayanan1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHhVR0UzZFhsRWRuSlRXR3BvVFJDZkF4ampCU2dLTWdrVlFvaG9JbWs5WndJ",
+      "date": "09/16/2026, 04:48 AM, +0000 UTC",
+      "iso_date": "2026-09-16T04:48:27Z"
+    },
+    {
+      "position": 10,
+      "title": "ISRO recruitment 2026: Applications open for Technical Assistant, Technician and other posts; check detai",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://timesofindia.indiatimes.com/education/news/isro-recruitment-2026-applications-open-for-technical-assistant-technician-and-other-posts-check-details/articleshow/134259964.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-134260564,width-1280,height-720,imgsize-49848,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJja3BKU1RkM1JFMTZaa1Z3VFJDZkF4ampCU2dLTWdhQmM0cU1zUVE",
+      "date": "09/15/2026, 11:26 AM, +0000 UTC",
+      "iso_date": "2026-09-15T11:26:00Z"
+    },
+    {
+      "position": 11,
+      "title": "G20 satellite is expected to be launched in 2027: ISRO Chairman",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/g20-satellite-is-expected-to-be-launched-in-2027-isro-chairman/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2025/12/isro-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZkbXhUU0hGcFRVOTBORkIwVFJESEF4aWhCU2dLTWdrWk00cHB4V1NENlFF",
+      "date": "09/15/2026, 09:53 PM, +0000 UTC",
+      "iso_date": "2026-09-15T21:53:06Z"
+    },
+    {
+      "position": 12,
+      "title": "EOS-06/Oceansat-3 detects impact of the developing El Niño on Marine Productivity in the Equatorial Pacific Ocean",
+      "source": {
+        "name": "ISRO",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.isro.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.isro.gov.in/EOS_06_Oceansat_3_detects_impact.html",
+      "thumbnail": "https://www.isro.gov.in/media_isro/image/index/Latest/EOS_06_ElNinio_2024_2026.jpg.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVVWRkJCWmt3MlpFMUdZME5vVFJDYUF4anJCU2dLTWdtRkVZekdubWM5S0FJ",
+      "date": "09/10/2026, 09:49 AM, +0000 UTC",
+      "iso_date": "2026-09-10T09:49:30Z"
+    },
+    {
+      "position": 13,
+      "title": "ISRO’s ‘privatisation’ move: What India’s space policy says",
+      "source": {
+        "name": "The Indian Express",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Anonna Dutt"
+        ]
+      },
+      "link": "https://indianexpress.com/article/explained/explained-sci-tech/isro-privatisation-private-sector-space-policy-10874018/",
+      "thumbnail": "https://images.indianexpress.com/2026/09/ex-isro-inspace_expl-scitech.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVTblE0VUhGMFNISm5jbXMyVFJDZkF4ampCU2dLTWdZVlVwUUpMUWc",
+      "date": "09/14/2026, 08:41 AM, +0000 UTC",
+      "iso_date": "2026-09-14T08:41:00Z"
+    },
+    {
+      "position": 14,
+      "title": "ISRO Satellite Detects Clearest Sign Yet Of \"Mother Of All\" El Nino Events",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/isro-satellite-detects-clearest-sign-yet-of-mother-of-all-el-nio-events-12033353",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/9mlvo06g_isro-_625x300_11_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWxaVmhRV21GbFNuSTNVMTkyVFJDZkF4ampCU2dLTWdZaEVvU3ZtUWs",
+      "date": "09/11/2026, 11:46 AM, +0000 UTC",
+      "iso_date": "2026-09-11T11:46:55Z"
+    },
+    {
+      "position": 15,
+      "title": "NASA invites ISRO to join its ambitious Moon Base programme",
+      "source": {
+        "name": "DD News",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://ddnews.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://ddnews.gov.in/en/nasa-invites-isro-to-join-its-ambitious-moon-base-programme/",
+      "thumbnail": "https://ddnews.gov.in/wp-content/uploads/2024/03/isro-2.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHdWVXRhVURsd1JuTkRUV3BIVFJENkFSajhBaWdLTWdhWk00cHB4UVE",
+      "date": "09/14/2026, 06:43 PM, +0000 UTC",
+      "iso_date": "2026-09-14T18:43:23Z"
+    },
+    {
+      "position": 16,
+      "title": "Ground control: On ISRO, policy and and its focus",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.thehindu.com/opinion/editorial/ground-control-on-isro-policy-and-and-its-focus/article71439288.ece",
+      "thumbnail": "https://www.thehindu.com/theme/images/amp-og-image.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxjMll5TjBOVFpUQjRNSEZ4VFJDcUJCaXFCQ2dLTWdhTmtwQUlOUVk",
+      "date": "09/07/2026, 06:40 PM, +0000 UTC",
+      "iso_date": "2026-09-07T18:40:00Z"
+    },
+    {
+      "position": 17,
+      "title": "Is ISRO really being privatised in India?: What’s changing as private firms take a bigger role in space, an...",
+      "source": {
+        "name": "Bhaskar English",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bhaskarenglish.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Samira Siddiqui"
+        ]
+      },
+      "link": "https://www.bhaskarenglish.in/tech-science/news/isro-privatisation-india-private-firms-space-sector-impact-139037597.html",
+      "thumbnail": "https://images.bhaskarassets.com/thumb/1200x900/web2images/1884/2026/09/16/isro-story-thumb_1789499513.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpjRlZUUldaTFRXRjVjVzlKVFJEZ0F4aUFCU2dLTWdZVkE1QkxEUXM",
+      "date": "09/16/2026, 12:36 AM, +0000 UTC",
+      "iso_date": "2026-09-16T00:36:00Z"
+    },
+    {
+      "position": 18,
+      "title": "ISRO Admit Card 2026 Out For UDC, PA and Stenographer, Hall Ticket Download Link",
+      "source": {
+        "name": "Adda247",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.adda247.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.adda247.com/jobs/isro-admit-card-2026/",
+      "thumbnail": "https://www.adda247.com/jobs/wp-content/uploads/2026/08/22225024/ISRO-Admit-Card-2026.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTZkR05QTjJoSGNsWlZVMFl4VFJDZkF4ampCU2dLTWdNQkFBbw",
+      "date": "09/14/2026, 04:55 PM, +0000 UTC",
+      "iso_date": "2026-09-14T16:55:58Z"
+    },
+    {
+      "position": 19,
+      "title": "ISRO successfully conducts 2nd integrated air drop test for Gaganyaan mission",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/isro-successfully-conducts-2nd-integrated-air-drop-test-for-gaganyaan-mission/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/04/IADT-02-scaled.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBZamN3ZWtONWFUZEZlVGh1VFJERUF4aW1CU2dLTWdZbEZZU3RtUWs",
+      "date": "09/15/2026, 06:15 PM, +0000 UTC",
+      "iso_date": "2026-09-15T18:15:47Z"
+    },
+    {
+      "position": 20,
+      "title": "Successful Hot Test of CE20 Cryogenic Engine for LVM3 M7 Mission",
+      "source": {
+        "name": "ISRO",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.isro.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.isro.gov.in/Successful_Hot_Test_of_CE20_Cryogenic.html",
+      "thumbnail": "https://www.isro.gov.in/media_isro/image/index/Latest/IMG_20260909_WA0022.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXNhbXBET1RWUFJHSnVVMjlQVFJEQUJSaTBBeWdLTWdZaE00U01IUU0",
+      "date": "09/10/2026, 08:30 AM, +0000 UTC",
+      "iso_date": "2026-09-10T08:30:54Z"
+    },
+    {
+      "position": 21,
+      "title": "ISRO successfully conducts hot test of Semicryogenic Engine Power Head Test Article at full thrust level",
+      "source": {
+        "name": "ISRO",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.isro.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.isro.gov.in/Semicryogenic_Engine_Power_Head_Test.html",
+      "thumbnail": "https://www.isro.gov.in/media_isro/image/index/Latest/DSC_2898.JPG.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdNM2RQV25kYVdscHNia2xIVFJERUF4aW1CU2dLTWdZZGxJcXR2UVE",
+      "date": "09/05/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-05T07:00:00Z"
+    },
+    {
+      "position": 22,
+      "title": "ISRO to launch Earth observation satellite EOS-05 from Sriharikota tomorrow",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/isro-to-launch-earth-observation-satellite-eos-05-from-sriharikota-tomorrow/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/09/is1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNVBiVm93Ylc1WlRWZFNOV2MzVFJEU0FoaTBCQ2dLTWdPQk1RZw",
+      "date": "09/03/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "position": 23,
+      "title": "As Isro’s workforce shrinks to six-year low, 440 space startups race to create 2 lakh jobs",
+      "source": {
+        "name": "Moneycontrol.com",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Surabhi Pandey"
+        ]
+      },
+      "link": "https://www.moneycontrol.com/news/india/as-isro-s-workforce-shrinks-to-six-year-low-440-space-startups-race-to-create-2-lakh-jobs-14024399.html",
+      "thumbnail": "https://images.moneycontrol.com/static-mcnews/2025/01/20250129030740_ISRO-launch.jpg?impolicy=website&width=350&height=196",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTRXbUpDVDB0Q1dGTkRTSFF5VFJERUFSamVBaWdLTWdZQmdZQnNTUUk",
+      "date": "09/07/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-07T07:00:00Z"
+    },
+    {
+      "position": 24,
+      "title": "Government, Opposition spar over future role of ISRO",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.thehindu.com/news/national/modi-government-strangulating-emasculating-isro-congress/article71383212.ece",
+      "thumbnail": "https://th-i.thgim.com/public/incoming/ceb0b1/article71383245.ece/alternates/LANDSCAPE_1200/TH19-Vijaita-CoGSCGDSKIN.3.jpg.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9SalF4YVUxUGJ6bGZOa1ZuVFJDZkF4ampCU2dLTWdhdFZJcVBMUVk",
+      "date": "08/24/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "position": 25,
+      "title": "Thrice The Threat: ISRO Warns Of Severe Storm Risk In Indian Ocean This Year",
+      "source": {
+        "name": "GujaratSamachar English",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://english.gujaratsamachar.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://english.gujaratsamachar.com/news/national/thrice-the-threat-isro-warns-of-severe-storm-risk-in-indian-ocean-this-year-87094007600",
+      "thumbnail": "https://cdn.gujaratsamachar.com/media/post/2026/09/c29fc73e0b621dc931e37034455e3da0.webp?w=1060&f=webp&q=90",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUliSFV3VFdVNVIydHJVRmRpVFJDb0FSaXJBaWdCTWdZQkVveUFRd1U",
+      "date": "09/11/2026, 09:09 AM, +0000 UTC",
+      "iso_date": "2026-09-11T09:09:23Z"
+    },
+    {
+      "position": 26,
+      "title": "ISRO Employees Object to Pawan Goenkas Privatisation Plan for Indias Premier Space Agency",
+      "source": {
+        "name": "TheWire.in",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.thewire.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://m.thewire.in/article/business/isro-employees-object-to-pawan-goenkas-plan-for-indias-premier-space-agency",
+      "thumbnail": "https://m.thewire.in/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhld2lyZS1pbi1wcm9kLXNvcnRkL21lZGlhZjhiYzhiYTAtYTllZi0xMWYxLTliMjAtODNlOGRjOGFiMTZhLmpwZw==",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUpWMEZEY1RCRWVHVkhNR0ZXVFJDNUF4aTRCU2dLTWdhMWM1SlJzUWM",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 27,
+      "title": "ISRO satellite detects changes: El Niño leaves impact on Indian Ocean",
+      "source": {
+        "name": "DT Next",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.dtnext.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.dtnext.in/news/tamilnadu/isro-satellite-detects-changes-el-ni%C3%B1o-leaves-impact-on-indian-ocean",
+      "thumbnail": "https://media.assettype.com/dt-next/2026-09-12/vhgfatbf/1-30.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVNjMXA0T0hNNU1VaE5VR3huVFJDZkF4ampCU2dLTWdrRklZelZKS2l4Q0FJ",
+      "date": "09/12/2026, 02:09 AM, +0000 UTC",
+      "iso_date": "2026-09-12T02:09:48Z"
+    },
+    {
+      "position": 28,
+      "title": "Govt says ISRO has developed & operationalised wide range of space-based applications to benefit society",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/govt-says-isro-has-developed-operationalised-wide-range-of-space-based-applications-to-benefit-society/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/04/vr-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUlWVWRoVGtFNFZHUlBYemxwVFJDbkFoallCQ2dLTWdrQkVJQkRMR1ZNRmdF",
+      "date": "09/14/2026, 09:50 AM, +0000 UTC",
+      "iso_date": "2026-09-14T09:50:59Z"
+    },
+    {
+      "position": 29,
+      "title": "ISRO SAC Engineer Openings 2026: 47 Vacancies, Eligibility, Salary, Apply Online",
+      "source": {
+        "name": "PW",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.pw.live&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Supriya Shrivastava"
+        ]
+      },
+      "link": "https://www.pw.live/gate/exams/isro-sac-engineer-openings-2026",
+      "thumbnail": "https://i.ytimg.com/vi/3yasTotRehQ/maxresdefault.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhhelZHTkc1dmIxTnVSV1U1VFJDZkF4ampCU2dLTWdrTkVvRE5JZWxxV0FB",
+      "date": "09/15/2026, 07:12 AM, +0000 UTC",
+      "iso_date": "2026-09-15T07:12:21Z"
+    },
+    {
+      "position": 30,
+      "title": "Isro transparency on 'failures' comes under lens amid private sector expansion",
+      "source": {
+        "name": "Telegraph India",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.telegraphindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.telegraphindia.com/india/isro-pslv-failures-transparency-questions-grow-as-private-industry-expands-space-sector-prnt/cid/2179180",
+      "thumbnail": "https://assets.telegraphindia.com/telegraph/2026/Sep/1788768952_isro.gif",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBhM0JzVUZST2MxSnNWMjVVVFJERUF4aW1CU2dLTWdZVmhJeUp0UVE",
+      "date": "09/10/2026, 12:55 AM, +0000 UTC",
+      "iso_date": "2026-09-10T00:55:54Z"
+    },
+    {
+      "position": 31,
+      "title": "ISRO successfully launches Earth observation satellite EOS-05",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Hemanth Cs"
+        ]
+      },
+      "link": "https://www.thehindu.com/sci-tech/science/isro-gslv-f17-eos-05-satellite-rocket-launch-september-4-sriharikota-updates/article71425914.ece",
+      "thumbnail": "https://th-i.thgim.com/public/incoming/41j08j/article71426819.ece/alternates/LANDSCAPE_1200/Copy%20of%20Untitled%20Design%206.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURkR1JhYmpsV1QyNUNXV0pGVFJDZkF4ampCU2dLTWdhQmNJYTFQQVU",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 32,
+      "title": "How ISRO's 'Naughty Boy' Rocket Delivered A Big Win For India",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/gslv-f17-launch-how-isros-naughty-boy-rocket-delivered-a-big-win-for-india-12000162",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/l508mfb4_isro-launch_625x300_04_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRhVzVQVkdGb1VUQjNjM1ZRVFJDZkF4ampCU2dLTWdhUklJTHl1QU0",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 33,
+      "title": "Amit Shah Pitches Zero Disaster Casualties. ISRO Sent Its Warnings Years Ago",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/amit-shah-pitches-zero-disaster-casualties-isro-sent-its-warnings-years-ago-12037050",
+      "thumbnail": "https://i.ndtvimg.com/i/2016-10/amit-shah-presser_650x400_51475830856.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTVPRVJxUWxORlFYcDRka2d6VFJDUUF4aUtCU2dLTWdhcFpKS3VxUWM",
+      "date": "09/12/2026, 10:01 AM, +0000 UTC",
+      "iso_date": "2026-09-12T10:01:39Z"
+    },
+    {
+      "position": 34,
+      "title": "3rd National Space Day 2026 celebrated at Ahmedabad",
+      "source": {
+        "name": "ISRO",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.isro.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.isro.gov.in/3rd_National_Space_Day_2026.html",
+      "thumbnail": "https://www.isro.gov.in/media_isro/image/index/Latest/Space_Day.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVlVXRMTlZvelZrdzJURTl6VFJDM0FSaVRBaWdCTWdZQlE0TE1HUW8",
+      "date": "08/24/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "position": 35,
+      "title": "The logic behind ISRO and DRDO’s tech transfers",
+      "source": {
+        "name": "thedailybrief.zerodha.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://thedailybrief.zerodha.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://thedailybrief.zerodha.com/p/isro--drdo-tech-private-manufacture-tech-india-cctv-market-new-rules",
+      "thumbnail": "https://substackcdn.com/image/fetch/$s_!-CNf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e20a1b8-d229-4382-969f-649ee5a9b3cf_1536x1024.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJSRGMzWDJScldqUXlSRUYxVFJERUF4aW1CU2dLTWdZQmdJaE9zUVk",
+      "date": "09/08/2026, 01:49 AM, +0000 UTC",
+      "iso_date": "2026-09-08T01:49:14Z"
+    },
+    {
+      "position": 36,
+      "title": "ISRO successfully tests CE20 cryogenic engine for LVM3-M7 mission",
+      "source": {
+        "name": "Manorama Yearbook",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.manoramayearbook.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.manoramayearbook.in/current-affairs/india/2026/09/11/isro-tests-ce20-cryogenic-engine-for-lvm3-m7-mission.html",
+      "thumbnail": "https://img.manoramayearbook.in/content/dam/yearbook/learn/current-affairs/india/images/2026/9/11/ce20-cryogenic-engine.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdXbTA0Y3paMloyaDJia1pOVFJDSEF4aVBCaWdLTWdhQk1JTE5HUWs",
+      "date": "09/11/2026, 06:50 AM, +0000 UTC",
+      "iso_date": "2026-09-11T06:50:27Z"
+    },
+    {
+      "position": 37,
+      "title": "ISRO seeks to calm nerves over India's space privatisation push",
+      "source": {
+        "name": "Reuters",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Nivedita Bhattacharjee"
+        ]
+      },
+      "link": "https://www.reuters.com/science/isro-seeks-calm-nerves-over-indias-space-privatisation-push-2026-09-07/",
+      "thumbnail": "https://www.reuters.com/resizer/v2/VA3XGNVQJJITBDSQUPAT4YDKP4.jpg?auth=d09a2d8f94c07e543590004d5f35e682ba6e05e8eae8531a177ca98797553909&width=1920&quality=80",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBaSEkxTVZwdFgzbzRUV0pqVFJERUF4aW1CU2dLTWdZQmc0cU1zUVE",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 38,
+      "title": "Country gets first Sub-Geo Synchronized Earth Observation Satellite",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/isro-successfully-launches-earth-observation-satellite-eos-05-from-sriharikota/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/09/ISRO.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFTekJTVmpRd0xWTm1aRmxOVFJEY0F4allCQ2dLTWdZSmdvQnZ6UUk",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 39,
+      "title": "Private sector participation in space launch vs ISRO?",
+      "source": {
+        "name": "Whispers in the Corridors",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://whispersinthecorridors.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://whispersinthecorridors.in/news/private-sector-participation-in-space-launch-vs-isro",
+      "thumbnail": "https://whispersinthecorridors.in/uploads/2026/09/1f58469f43ca828f.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFNRWR5Ukc1NGVYaEVMV1JCVFJDZkF4ampCU2dLTWdZbEpJS01tUWc",
+      "date": "09/15/2026, 05:20 AM, +0000 UTC",
+      "iso_date": "2026-09-15T05:20:31Z"
+    },
+    {
+      "position": 40,
+      "title": "ISRO satellite data shows El Niño is weakening the Pacific Ocean’s productivity",
+      "source": {
+        "name": "ThePrint",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Soumya Pillai"
+        ]
+      },
+      "link": "https://theprint.in/feature/isro-satellite-el-nino-weakening-pacific-ocean-productivity/3040430/",
+      "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/PC-2.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNHRObTA0VjJWRlEyUktNMVJpVFJDZkF4ampCU2dLTWdNaDBBWQ",
+      "date": "09/11/2026, 12:19 PM, +0000 UTC",
+      "iso_date": "2026-09-11T12:19:15Z"
+    },
+    {
+      "position": 41,
+      "title": "As Isro focuses on R&D, private sector to step up launch vehicle manufacturing",
+      "source": {
+        "name": "India Today",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.indiatoday.in/science/story/isro-will-not-make-any-launch-vehicle-all-tech-to-be-handed-to-private-sector-2976849-2026-08-21",
+      "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/lvm-3-cms-03-launch-041804117-16x9.jpg?VersionId=b6.W87iQSmL6Zd8EDiJ3ZqeAgfeK6Toj&size=1280:720",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxhSFozWldKNVVsWmlNSGxVVFJDZkF4ampCU2dLTWdhcEpZRFBuUWM",
+      "date": "08/21/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-21T07:00:00Z"
+    },
+    {
+      "position": 42,
+      "title": "Isro chief addresses staff to allay fears, specifics from letter not clarified",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Chethan Kumar"
+        ]
+      },
+      "link": "https://timesofindia.indiatimes.com/science/isro-chief-addresses-staff-to-allay-fears-specifics-from-letter-not-clarified/articleshow/133958736.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-133960508,width-1280,height-720,imgsize-86436,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5NMGRVVDNGdlZqSndhR2g0VFJDZkF4ampCU2dLTWdhaFZJek5vUWM",
+      "date": "09/09/2026, 08:32 AM, +0000 UTC",
+      "iso_date": "2026-09-09T08:32:00Z"
+    },
+    {
+      "position": 43,
+      "title": "ISRO privatisation: The writing is on the wall",
+      "source": {
+        "name": "Deccan Herald",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.deccanherald.com/india/isro-privatisation-the-writing-is-on-the-wall-4143721",
+      "thumbnail": "https://media.assettype.com/deccanherald/2026-09-11/6isw7gex/deccanherald2026-09-07ldmgm2tf7a6bb372-ae69-44b0-8486-15d2a2d4972a.avif",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVJaa041WTFCcVpHMDFSMUo2VFJDZkF4ampCU2dLTWdrTlFZaXl4S09wNmdF",
+      "date": "09/11/2026, 07:08 AM, +0000 UTC",
+      "iso_date": "2026-09-11T07:08:00Z"
+    },
+    {
+      "position": 44,
+      "title": "ISRO won’t be ‘diminished’, says IN-SPACe chairman",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "jacob koshy"
+        ]
+      },
+      "link": "https://www.thehindu.com/sci-tech/science/isro-staff-bodies-seek-clarification-on-the-trajectory-of-privatisation/article71434745.ece",
+      "thumbnail": "https://th-i.thgim.com/public/incoming/h59tq6/article71434755.ece/alternates/LANDSCAPE_1200/2025-02-13T115710Z_688319326_RC2PHAA18SVW_RTRMADP_3_INDIA-SPACE.JPG",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU5aVWc0TkRCM1IxaE1jbU4yVFJDZkF4ampCU2dLTWdZUmdZeG12Z1E",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 45,
+      "title": "UPSC Editorial Analysis: EOS-05 Mission and India’s Geostationary Earth Observation Capabilities",
+      "source": {
+        "name": "INSIGHTS IAS",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.insightsonindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.insightsonindia.com/2026/09/15/upsc-editorial-analysis-eos-05-mission-and-indias-geostationary-earth-observation-capabilities/",
+      "thumbnail": "https://www.insightsonindia.com/wp-content/uploads/2026/09/EOS.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTFaV05rTWtWSVNFaHFialozVFJDZEF4am1CU2dLTWdB",
+      "date": "09/15/2026, 06:56 AM, +0000 UTC",
+      "iso_date": "2026-09-15T06:56:38Z"
+    },
+    {
+      "position": 46,
+      "title": "ISRO To Launch EOS 5, Its Hawk Eye In Sky - 10 Key Takeaways",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/isro-to-launch-eos-5-its-hawk-eye-in-sky-10-key-takeaways-11998066",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/gk3d1ft4_isro-satellite-eos-5_625x300_03_September_26.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTZTRk5xZGpsM1ptVjBha2xFVFJDZkF4ampCU2dLTWdPQk1RWQ",
+      "date": "09/03/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "position": 47,
+      "title": "India news: ISRO launches first imaging satellite into orbit",
+      "source": {
+        "name": "DW.com",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.dw.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Dharvi Vaid"
+        ]
+      },
+      "link": "https://www.dw.com/en/india-news-isro-launches-first-imaging-satellite-into-orbit/live-78897037",
+      "thumbnail": "https://static.dw.com/image/78896703_604.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTBha3RqTjJ4eFZGaEpaM1I0VFJDZkF4amlCU2dLTWdNQk1RWQ",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 48,
+      "title": "Meet Eknath Vasant Chitnis: The man who helped build ISRO, recognized the potential of a young APJ Abdul",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://timesofindia.indiatimes.com/life-style/people/meet-eknath-vasant-chitnis-the-man-who-helped-build-isro-recognized-the-potential-of-a-young-apj-abdul-kalam-and-brought-satellite-tv-to-indian-villages/articleshow/134113277.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-134113909,width-1280,height-720,imgsize-1051108,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRWVGRvWm5aUFFrdFNjV3B4VFJDZkF4ampCU2dLTWdiRmNZcjF0QVU",
+      "date": "09/12/2026, 06:49 AM, +0000 UTC",
+      "iso_date": "2026-09-12T06:49:00Z"
+    },
+    {
+      "position": 49,
+      "title": "Can 'Naughty Boy' Help Redeem ISRO's 'Lost' Sheen? Big Launch Tonight",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/can-naughty-boy-help-redeem-isros-lost-sheen-big-satellite-launch-tonight-11995612",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/6k0td8l_isro_625x300_03_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUNiMjFpTXpKYWVqaFdSVXhrVFJDZkF4ampCU2dLTWdPQk1RWQ",
+      "date": "09/03/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-03T07:00:00Z"
+    },
+    {
+      "position": 50,
+      "title": "No privatisation, but space economy has to grow: ISRO chief’s message to staff",
+      "source": {
+        "name": "The Indian Express",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Anonna Dutt"
+        ]
+      },
+      "link": "https://indianexpress.com/article/india/isro-privatisation-space-economy-narayanan-10867656/",
+      "thumbnail": "https://images.indianexpress.com/2026/09/ISRO-Chairman-V-Narayanan-right-with-IN-SPACe-Chairman-Pawan-Goenka-at-the-Bengaluru-Space-Expo-Monday.-PTI.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpSWHBLVlVWcllWQnBVbXBKVFJDZkF4ampCU2dLTWdhUlE1cEhvUWs",
+      "date": "09/07/2026, 11:50 PM, +0000 UTC",
+      "iso_date": "2026-09-07T23:50:57Z"
+    },
+    {
+      "position": 51,
+      "title": "After seven-month hiatus, ISRO to launch key satellite on September 4",
+      "source": {
+        "name": "The Indian Express",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Anonna Dutt"
+        ]
+      },
+      "link": "https://indianexpress.com/article/technology/science/after-seven-month-hiatus-isro-to-launch-key-satellite-on-september-4-10857821/",
+      "thumbnail": "https://images.indianexpress.com/2026/09/ISRO_6b01d2_20260831225639.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVkRFZoTFRsVVJGVlNSRkU1VFJDZkF4ampCU2dLTWdhRkVJRE1JUVk",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 52,
+      "title": "Why GSLV-F17 is more than just Isro’s first successful launch of 2026",
+      "source": {
+        "name": "Forbes India",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.forbesindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Samreen Wani"
+        ]
+      },
+      "link": "https://www.forbesindia.com/article/news/deep-dive/why-gslv-f17-is-more-than-just-isros-first-successful-launch-of-2026/2997878/1",
+      "thumbnail": "https://images.forbesindia.com/blog/wp-content/uploads/2026/09/ISRO-GSLVF17BG-2026-09-505a118cd84f837453f4a17e53fd6c8b-thumbnail.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDBNRk50V1VkNVpUTldYekUxVFJDV0FSaVdBU2dLTWdrQkFJVENEaU05RFFF",
+      "date": "09/05/2026, 07:11 AM, +0000 UTC",
+      "iso_date": "2026-09-05T07:11:41Z"
+    },
+    {
+      "position": 53,
+      "title": "ISRO, DRDO And The Rise Of India’s Military-Industrial Complex",
+      "source": {
+        "name": "outlookbusiness.com",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.outlookbusiness.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Sameer Patil"
+        ]
+      },
+      "link": "https://www.outlookbusiness.com/deeptech/isro-drdo-and-the-rise-of-indias-military-industrial-complex",
+      "thumbnail": "https://media.assettype.com/outlookbusiness/2026-09-12/1yy0n2tl/ChatGPT-Image-Sep-12-2026-121741-PM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhUSEYzU2pGT09YRlRPR3A2VFJDZkF4ampCU2dLTWdrQmdJWmd6eU9EandF",
+      "date": "09/12/2026, 06:55 AM, +0000 UTC",
+      "iso_date": "2026-09-12T06:55:53Z"
+    },
+    {
+      "position": 54,
+      "title": "ISRO launches India’s first-ever ‘Eye in the Sky’",
+      "source": {
+        "name": "The New Indian Express",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Bosky Khanna"
+        ]
+      },
+      "link": "https://www.newindianexpress.com/states/karnataka/2026/Sep/05/isro-launches-indias-first-ever-eye-in-the-sky",
+      "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2026-09-04%2Fzqj5mo26%2Fwill-explore.jpg?rect=0%2C52%2C517%2C291&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXJTV3cyVGs1R0xWTTFkSGhYVFJDakFoaUZCQ2dLTWdNVkpRQQ",
+      "date": "09/05/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-05T07:00:00Z"
+    },
+    {
+      "position": 55,
+      "title": "Internal Crisis? The Corporate Shot at Taking Control of ISRO",
+      "source": {
+        "name": "clarionindia.net",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://clarionindia.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Ranjan Solomon"
+        ]
+      },
+      "link": "https://clarionindia.net/internal-crisis-the-corporate-shot-at-taking-control-of-isro/",
+      "thumbnail": "https://clarionindia.net/wp-content/uploads/2026/09/ISRO-Rocket.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJPVXREY1VFemVEZG9RV3B0VFJDbUJSakVBeWdLTWdhZE5JTE9JUW8",
+      "date": "09/13/2026, 09:20 AM, +0000 UTC",
+      "iso_date": "2026-09-13T09:20:46Z"
+    },
+    {
+      "position": 56,
+      "title": "ISRO: Making space for industry?",
+      "source": {
+        "name": "Deccan Herald",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Kalyan Ray"
+        ]
+      },
+      "link": "https://www.deccanherald.com/india/isro-making-space-for-industry-4143718",
+      "thumbnail": "https://media.assettype.com/deccanherald/2026-09-11/caw2mzzz/file8336hrw8ao2f1r6qmi4.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUlaMm95T0ZOak1uVjFkREJLVFJDZkF4ampCU2dLTWdZWllZVE5MUU0",
+      "date": "09/11/2026, 07:07 AM, +0000 UTC",
+      "iso_date": "2026-09-11T07:07:00Z"
+    },
+    {
+      "position": 57,
+      "title": "Why ISRO chose GSLV Mk-II over its trusted workhorse PSLV to launch EOS-05",
+      "source": {
+        "name": "ThePrint",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Soumya Pillai"
+        ]
+      },
+      "link": "https://theprint.in/science/isro-gslv-mk-ii-pslv-launch-eos-05/3033988/",
+      "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/ruchika-singh-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNDJaVTFwYUd0SldXUTJNMTh3VFJDZkF4ampCU2dLTWdNSkVnSQ",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 58,
+      "title": "India’s spirit of Vasudhaiva Kutumbakam must travel beyond Earth, says PM Modi virtually at ISS",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/isro-earned-global-admiration-for-its-excellence-in-cost-effective-missions-says-pm-modi-virtually-at-iss/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/09/PM-6.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJOblIyZG5wa05qbFJjRWhhVFJDUUF4allCQ2dLTWdZcFpaYXVKUWc",
+      "date": "09/10/2026, 02:00 PM, +0000 UTC",
+      "iso_date": "2026-09-10T14:00:04Z"
+    },
+    {
+      "position": 59,
+      "title": "Congress hails successful launch of India’s imaging satellite; slams Modi government for ‘attack’ on ISRO",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.thehindu.com/news/national/congress-hails-successful-launch-of-indias-imaging-satellite-slams-modi-government-for-attack-on-isro/article71427307.ece",
+      "thumbnail": "https://th-i.thgim.com/public/incoming/jp9dnq/article71427359.ece/alternates/LANDSCAPE_1200/10_Jairam_Ramesh_Congress_Leaders_PC_13_08_Delhi.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWlNRFZMVlZoc2JVbFFOVGxvVFJDZkF4ampCU2dLTWdhQlFZN05OUVk",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 60,
+      "title": "ISRO Successfully Launches GSLV F17 Rocket Carrying Imaging Satellite EOS-05",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Amit Rajpurohit"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/isros-gslv-f17-rocket-carrying-imaging-satellite-eos-5-lifts-off-11999834",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/jh0t2tjs_gslv-f17_625x300_04_September_26.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFZblpNTkRRNGRYWXhaa2hKVFJDZkF4ampCU2dLTWdhRlVZb1JwUVk",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 61,
+      "title": "ISROs Employees Must Be Heard, Govts Plans to Transfer Tech to the Private Sector Raises Valid Concerns",
+      "source": {
+        "name": "TheWire.in",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.thewire.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Ajay Lele"
+        ]
+      },
+      "link": "https://m.thewire.in/article/space/isros-employees-must-be-heard-govts-plans-to-transfer-tech-to-the-private-sector-raises-valid-concerns",
+      "thumbnail": "https://m.thewire.in/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhld2lyZS1pbi1wcm9kLXNvcnRkL21lZGlhOGJhNzE3ODAtYWRiNy0xMWYxLWI3YzQtZDkzNjNhNjU5MGM3LmpwZw==",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUhlbDlhWXpSeFZtNXFZbGczVFJDZkF4ampCU2dLTWdNQk1BWQ",
+      "date": "09/11/2026, 08:05 AM, +0000 UTC",
+      "iso_date": "2026-09-11T08:05:22Z"
+    },
+    {
+      "position": 62,
+      "title": "ISRO Recruitment 2026: Apply for Technical Assistant and other posts at isro.gov.in | Hindustan Times",
+      "source": {
+        "name": "Hindustan Times",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Papri Chanda"
+        ]
+      },
+      "link": "https://www.hindustantimes.com/education/employment-news/isro-recruitment-2026-apply-for-technical-assistant-and-other-posts-at-isrogovin-101789465580616.html",
+      "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/09/15/1600x900/logo/isro-reuters1200_1623054887896_1789465902938_GRzT_95d36d20-522f-4790-a4d3-20238f74f6d6_Kjkv.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHdNVEl3VEY5dWFEWTFaREJDVFJDZkF4ampCU2dLTWdrQkVJVHAwT0p6aXdF",
+      "date": "09/15/2026, 09:52 AM, +0000 UTC",
+      "iso_date": "2026-09-15T09:52:31Z"
+    },
+    {
+      "position": 63,
+      "title": "ISRO Successfully Tests CE20 Engine At 220 KN For LVM3 Mission",
+      "source": {
+        "name": "Sarkaritel.com",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.sarkaritel.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Ameya Sathaye"
+        ]
+      },
+      "link": "https://www.sarkaritel.com/isro-ce20-engine-220-kn-hot-test-lvm3-gaganyaan/",
+      "thumbnail": "https://www.sarkaritel.com/wp-content/uploads/2026/09/isro-ingine-conduct.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJhelJtWWxJMmEwaFVkR1oyVFJDZkF4ampCU2dLTWdZQlVZak5IUWc",
+      "date": "09/10/2026, 02:23 PM, +0000 UTC",
+      "iso_date": "2026-09-10T14:23:00Z"
+    },
+    {
+      "position": 64,
+      "title": "What’s changing as private firms take a bigger role in space, and will it affect ISRO’s workforce?",
+      "source": {
+        "name": "Bhaskar English",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bhaskarenglish.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.bhaskarenglish.in/tech-science/video/isro-privatisation-india-private-firms-space-sector-impact-139037597.html?type=video",
+      "thumbnail": "https://images.bhaskarassets.com/thumb/400x711/web2images/1884/2026/09/15/tech-creation00000114still001_1789493777.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNVNNR3B2WVZkUE5tNWFOVkZDVFJESEJSaVFBeWdLTWdzQkVJYkNTT05yeFpsa3dR",
+      "date": "09/16/2026, 12:36 AM, +0000 UTC",
+      "iso_date": "2026-09-16T00:36:00Z"
+    },
+    {
+      "position": 65,
+      "title": "Letter sent after GSLV launch: ISRO staff question trajectory of space privatisation, want chief to clarify",
+      "source": {
+        "name": "The Indian Express",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Anonna Dutt"
+        ]
+      },
+      "link": "https://indianexpress.com/article/india/letter-sent-after-gslv-launch-isro-staff-question-trajectory-of-space-privatisation-want-chief-to-clarify-10865028/",
+      "thumbnail": "https://images.indianexpress.com/2026/09/gslv_1c6cb1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXVRWEpsTUZacFozUkJMWFprVFJDZkF4ampCU2dLTWdZVktKNW9GZ28",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 66,
+      "title": "Thousands of ISRO employees question fate, write to chairman amid privatisation push | India News",
+      "source": {
+        "name": "Hindustan Times",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Snehal Vivienne Fernandes"
+        ]
+      },
+      "link": "https://www.hindustantimes.com/india-news/isro-staff-bodies-seek-clarity-on-shift-to-private-sector-write-to-chairman-101788656785084.html",
+      "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/09/06/1600x900/logo/v_narayana_1788656965272_e3873f0a-e7d7-4559-b0aa-43f86a8a76fc_1788656965469_878e57a5-2a3b-4fd7-8a7e-a722b5cae529_04e2030c-3585-4778-8f55-ace161d50a3a_b4b8fb7b-6529-4373-9edf-9738a4f01fa1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWZZbm8zVUdsT2JtUXdOVlJ4VFJDZkF4ampCU2dLTWdhcFpZVE5yUVU",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 67,
+      "title": "Private push, not privatisation: The confusion Isro and India's space sector don't need",
+      "source": {
+        "name": "India Today",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Sibu Tripathi"
+        ]
+      },
+      "link": "https://www.indiatoday.in/opinion/story/private-push-not-privatisation-the-confusion-isro-and-indias-space-sector-dont-need-2988730-2026-09-07",
+      "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/isro-private-sector-push-075909731-16x9_0.jpg?VersionId=2_0fQ_QR..cEFAYQ23wtSD4_pBrQZVq7&size=1280:720",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWZhVWhOYzJvNFIxcGhhSEJRVFJDZkF4ampCU2dLTWdZTkVZT3NYUUk",
+      "date": "09/07/2026, 07:43 AM, +0000 UTC",
+      "iso_date": "2026-09-07T07:43:23Z"
+    },
+    {
+      "position": 68,
+      "title": "ISRO Exam Date 2026 Out, Check Complete Exam Schedule",
+      "source": {
+        "name": "Adda247",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.adda247.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.adda247.com/jobs/isro-recruitment-2026/",
+      "thumbnail": "https://www.adda247.com/jobs/wp-content/uploads/2026/07/21160329/2026-07-21T160309.967.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRka1ZSZW1kbk1uZG5kRUpCVFJDZkF4ampCU2dLTWdZRlVackVKZ2c",
+      "date": "09/12/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-12T07:00:00Z"
+    },
+    {
+      "position": 69,
+      "title": "Godrej Enterprises Group supplies propulsion, satellite systems for ISRO’s EOS-05 mission",
+      "source": {
+        "name": "ET Manufacturing",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://manufacturing.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/godrej-enterprises-group-supplies-propulsion-satellite-systems-for-isros-eos-05-mission/134073410",
+      "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134073410,width-1200,height-900,resizemode-4/.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtVVFZWTVROeVowOTVjR2hGVFJEZ0F4aUFCU2dLTWdhaE00U3RJUWM",
+      "date": "09/11/2026, 02:32 PM, +0000 UTC",
+      "iso_date": "2026-09-11T14:32:35Z"
+    },
+    {
+      "position": 70,
+      "title": "PM Modi praises Isro & its scientists at Paris summit, says agency has ‘earned global admiration for cost",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://timesofindia.indiatimes.com/india/pm-modi-praises-isro-its-scientists-at-paris-summit-says-agency-has-earned-global-admiration-for-cost-effective-missions/articleshow/134021296.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-134021532,width-1280,height-720,imgsize-1122163,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJjRGgxZEhZM1JYQnliekZXVFJDZkF4ampCU2dLTWdhZFJack5vUWc",
+      "date": "09/10/2026, 05:09 PM, +0000 UTC",
+      "iso_date": "2026-09-10T17:09:00Z"
+    },
+    {
+      "position": 71,
+      "title": "ISRO Seeks To Make Comeback With Hawkeye Satellite Launch On September 4",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/isro-seeks-to-make-comeback-with-hawkeye-satellite-launch-on-september-4-11971544",
+      "thumbnail": "https://c.ndtvimg.com/2026-08/10bfdp4g_isro-satellite-eos-5_625x300_28_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXRRbWxSTVRFMlkweGZXalJ3VFJDZkF4ampCU2dLTWdPRkV3QQ",
+      "date": "08/28/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-28T07:00:00Z"
+    },
+    {
+      "position": 72,
+      "title": "Nine ISRO employee associations seek clarity on reports of core functions being shifted to private sector",
+      "source": {
+        "name": "The New Indian Express",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.newindianexpress.com/india/2026/Sep/06/nine-isro-employee-associations-seek-clarity-on-reports-of-core-functions-being-shifted-to-private-sector",
+      "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-02-14/ta63exij/C_35_1_CH0279_6415216.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDROQzFHVW1Sa0xVUjJkWFZVVFJDZkF4ampCU2dLTWdhQlZZck5JUWs",
+      "date": "09/06/2026, 06:11 AM, +0000 UTC",
+      "iso_date": "2026-09-06T06:11:27Z"
+    },
+    {
+      "position": 73,
+      "title": "ISRO’s ‘Naughty Boy’ performs better than expected; what it means for the EOS-05 satellite",
+      "source": {
+        "name": "ThePrint",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Soumya Pillai"
+        ]
+      },
+      "link": "https://theprint.in/science/isros-naughty-boy-performs-better-than-expected-what-it-means-for-the-eos-05-satellite/3033390/",
+      "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/ISRO.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZUR2RQVW5kR2RTMVpRVGRGVFJDZkF4ampCU2dLTWdhQmNJVFZ4QVE",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 74,
+      "title": "KBC 18: IIT graduate quits over Rs 25 lakh ISRO question, walks away with Rs 12.5 lakh",
+      "source": {
+        "name": "The Indian Express",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://indianexpress.com/article/entertainment/television/kbc-18-kritagaya-nayar-rs-25-lakh-isro-nandini-harinath-saree-question-10870049/",
+      "thumbnail": "https://images.indianexpress.com/2026/09/kbc-18-3.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXFOWEZPY1RSVGRWSm5NMEpyVFJDZkF4ampCU2dLTWdrUllwYUhLbWc5NndF",
+      "date": "09/09/2026, 10:36 AM, +0000 UTC",
+      "iso_date": "2026-09-09T10:36:54Z"
+    },
+    {
+      "position": 75,
+      "title": "ISRO says space sector reforms focus on ecosystem expansion, not privatisation",
+      "source": {
+        "name": "News On AIR",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://newsonair.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://newsonair.gov.in/isro-says-space-sector-reforms-focus-on-ecosystem-expansion-not-privatisation/",
+      "thumbnail": "https://newsonair.gov.in/wp-content/uploads/2026/09/isro-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBkV0ZYV1RoSU5tVklSMnRFVFJDb0F4alVCU2dLTWdhRlVKcWtvZ2c",
+      "date": "09/07/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-07T07:00:00Z"
+    },
+    {
+      "position": 76,
+      "title": "Godrej Enterprises powers ISRO's successful EOS-05 satellite mission",
+      "source": {
+        "name": "Business Standard",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Shine Jacob"
+        ]
+      },
+      "link": "https://www.business-standard.com/companies/news/godrej-enterprises-powers-isro-s-successful-eos-05-satellite-mission-126091100985_1.html",
+      "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/04/full/1788503049-5715.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTNaekk0VFVSbWFFSnJNVTlyVFJDX0F4aXVCU2dLTWdPSndnZw",
+      "date": "09/11/2026, 12:02 PM, +0000 UTC",
+      "iso_date": "2026-09-11T12:02:40Z"
+    },
+    {
+      "position": 77,
+      "title": "Godrej Enterprises Group Supports ISRO’s Successful EOS-05 Mission",
+      "source": {
+        "name": "Machine Maker",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://themachinemaker.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://themachinemaker.com/news/godrej-enterprises-group-supports-isros-successful-eos-05-mission/",
+      "thumbnail": "https://i.ytimg.com/vi/cUobqeLBTzI/mqdefault.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNW1aWHBRTms1S2VVVnVUbnBDVFJDMEFSakFBaWdLTWdzQlVKUXBKbWdlYURydWtn",
+      "date": "09/13/2026, 09:05 AM, +0000 UTC",
+      "iso_date": "2026-09-13T09:05:49Z"
+    },
+    {
+      "position": 78,
+      "title": "PM lauds ISRO for successful launch of GSLV-F17 carrying EOS-05",
+      "source": {
+        "name": "PM India",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pmindia.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.pmindia.gov.in/en/news_updates/pm-lauds-isro-for-successful-launch-of-gslv-f17-carrying-eos-05/",
+      "thumbnail": "https://www.pmindia.gov.in/wp-content/uploads/2026/09/Prime-Minister-lauds-ISRO-for-successful-launch-of-GSLV-F17-carrying-EOS-05.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZkQzF4YTFGVVFtRk9iVlpXVFJDdEF4akxCU2dLTWdZZEFJTlp5QU0",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 79,
+      "title": "Isro's Nisar sent clear warning signs before deadly Nepal ice-rock avalanche",
+      "source": {
+        "name": "India Today",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.indiatoday.in/science/story/isros-nisar-sent-clear-warning-signs-before-deadly-nepal-ice-rock-avalanche-2984365-2026-09-01",
+      "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/nepal-flash-flood-tragedy-010538948-16x9_0.jpg?VersionId=fqEZk_fAbNcDSXw56FC3K6Tz1Eqd5mu9&size=1280:720",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1ibWRFUlhCelYwTjVUemhZVFJDZkF4ampCU2dLTWdhUlVaRDFJQWM",
+      "date": "09/01/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-01T07:00:00Z"
+    },
+    {
+      "position": 80,
+      "title": "ISRO Successfully Tests CE20 Cryogenic Engine At Uprated 220 KN Thrust For C32 Stage Of Upcoming LVM3 Mission",
+      "source": {
+        "name": "Swarajya",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://swarajyamag.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://swarajyamag.com/science/isro-successfully-tests-ce20-cryogenic-engine-at-uprated-220-kn-thrust-for-c32-stage-of-upcoming-lvm3-mission",
+      "thumbnail": "https://swarajya.gumlet.io/swarajya/2026-09-10/soecbe8b/Pic-Via-ISRO.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDVRMlpxY1VkNlkwVldSbkpCVFJERUF4aW1CU2dLTWdzQkVJaUtKYVpyNTNyc1l3",
+      "date": "09/10/2026, 09:30 AM, +0000 UTC",
+      "iso_date": "2026-09-10T09:30:35Z"
+    },
+    {
+      "position": 81,
+      "title": "ISRO to gradually exit rocket manufacturing as private sector takes the baton: Report",
+      "source": {
+        "name": "ET Government",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://government.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://government.economictimes.indiatimes.com/news/isro-to-gradually-exit-rocket-manufacturing-as-private-sector-takes-the-baton-report/133437684",
+      "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133437684,width-1200,height-900,resizemode-4/.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJjVEl3TFRaVU9VcFBTVE5UVFJEZ0F4aUFCU2dLTWdhcEJJQ3VQUU0",
+      "date": "08/23/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-23T07:00:00Z"
+    },
+    {
+      "position": 82,
+      "title": "ESA to explore cooperation with ISRO in human space flight, lunar and Venus missions",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Hemanth Cs"
+        ]
+      },
+      "link": "https://www.thehindu.com/sci-tech/science/esa-to-explore-cooperation-with-isro-in-human-space-flight-lunar-and-venus-missions/article71445422.ece",
+      "thumbnail": "https://th-i.thgim.com/public/incoming/lnk2fp/article71445621.ece/alternates/LANDSCAPE_1200/2023-10-31T150312Z_50488050_RC2YSY9KD3FE_RTRMADP_3_EUROPE-SPACE.JPG",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVXVWhKZGpKaWF6VkJPRWN4VFJDZkF4ampCU2dLTWdhcFZZanRwUWM",
+      "date": "09/09/2026, 04:27 AM, +0000 UTC",
+      "iso_date": "2026-09-09T04:27:07Z"
+    },
+    {
+      "position": 83,
+      "title": "ISRO’s ‘Bahubali’ draws big industry interest as L&T, Adani, others eye rocket technology",
+      "source": {
+        "name": "The Economic Times",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Puran Choudhary",
+          "Forum Gandhi"
+        ]
+      },
+      "link": "https://m.economictimes.com/tech/technology/isros-bahubali-draws-big-industry-interest-as-lt-adani-others-eye-rocket-technology/articleshow/133636567.cms",
+      "thumbnail": "https://m.economictimes.com/thumb/msid-133636601,width-1200,height-900,resizemode-4,imgsize-52358/cryo-power-from-vadodara-fuels-isros-bahubali-leap.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5Wako2UXpNelRUWkpSMjFIVFJEZ0F4aUFCU2dLTWdhaFZJcXVvUWM",
+      "date": "08/31/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-31T07:00:00Z"
+    },
+    {
+      "position": 84,
+      "title": "ISRO issues clarification after staff union letter, says its role will not diminish",
+      "source": {
+        "name": "ThePrint",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Soumya Pillai"
+        ]
+      },
+      "link": "https://theprint.in/science/isro-clarification-staff-union-letter-role-diminish/3035357/",
+      "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/07/2023-07-27T063748Z_1_LYNXMPEJ6Q06O_RTROPTP_4_INDIA-SPACE-PRIVATISATION-1-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTFXRUZxVVVwaVdVNXdiemRqVFJDZkF4ampCU2dLTWdrUmNZcm54YVExalFF",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 85,
+      "title": "HISTORIC! Isro places heaviest earth observation satellite into orbit",
+      "source": {
+        "name": "Rediff",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.rediff.com/news/report/eye-in-the-sky-isro-launches-indias-first-geo-orbit-imaging-satellite/20260904.htm",
+      "thumbnail": "https://im.rediff.com/1600-900/news/2026/sep/04-gslv-f17-2.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpSVkYzVG1RM1NXaEtSV0pMVFJDZkF4ampCU2dLTWdZZFFvQlNYUU0",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 86,
+      "title": "Indian Coast Guard Conducts Joint Maritime Rescue Drill in Andaman Amid ISRO Warning for Severe Cyclones",
+      "source": {
+        "name": "Defence.in",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://defence.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://defence.in/threads/indian-coast-guard-conducts-joint-maritime-rescue-drill-in-andaman-amid-isro-warning-for-severe-cyclones.18714/",
+      "thumbnail": "https://defence.in/attachments/202609133941191-1-webp.5969/",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNXVE13VWpWVWJYaGpibWcxVFJERUF4aW1CU2dLTWdZQllKUUdyZ2M",
+      "date": "09/13/2026, 06:11 PM, +0000 UTC",
+      "iso_date": "2026-09-13T18:11:06Z"
+    },
+    {
+      "position": 87,
+      "title": "ISRO Bets Big on Space Startups",
+      "source": {
+        "name": "Rediff",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Shine Jacob"
+        ]
+      },
+      "link": "https://www.rediff.com/news/report/isro-bets-big-on-space-startups/20260824.htm",
+      "thumbnail": "https://im.rediff.com/1600-900/news/2026/aug/24isro1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXZSMXBsVW5CR1oyWXRVVkp3VFJDZkF4ampCU2dLTWdNWmtBSQ",
+      "date": "08/24/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-24T07:00:00Z"
+    },
+    {
+      "position": 88,
+      "title": "After A Quiet 2026, ISRO Targets Gaganyaan Lift-Off In Four Months",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Pallav Bagla"
+        ]
+      },
+      "link": "https://www.ndtv.com/india-news/national-space-day-after-a-quiet-2026-isro-targets-gaganyaan-lift-off-in-four-months-11947188",
+      "thumbnail": "https://c.ndtvimg.com/2026-08/glavc5pc_gaganyaan_625x300_23_August_26.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUViV1pZZUc0NU9YWTVORmxCVFJDZkF4ampCU2dLTWdZQjBJS1kyQUk",
+      "date": "08/23/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-23T07:00:00Z"
+    },
+    {
+      "position": 89,
+      "title": "He worked 8-hour shifts at Intel and studied after work: How this IIT Delhi engineer secured ISRO AIR 7 t",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://timesofindia.indiatimes.com/education/news/he-worked-8-hour-shifts-at-intel-and-studied-after-work-how-this-iit-delhi-engineer-secured-isro-air-7-to-become-a-scientist/articleshow/133341500.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-133341799,width-1280,height-720,imgsize-210326,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNWek4wTUcxMFJrVXpRbFpwVFJDZkF4ampCU2dLTWdZbFpwRHRLUWM",
+      "date": "08/22/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-22T07:00:00Z"
+    },
+    {
+      "position": 90,
+      "title": "PM lauds ISRO, its scientists for India's space success and global recognition",
+      "source": {
+        "name": "Udayavani",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://udayavani.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://udayavani.com/national/pm-lauds-isro-its-scientists-for-indias-space-success-and-global-recognition-308869?lang=en",
+      "thumbnail": "https://d3jde0c4xcko0v.cloudfront.net/production/10-09-26/news/60g4r1mtvhjrfjFotoJet%20-%202026-09-10T174010.570.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVplV2xvU1drMWIxOUhjMUpEVFJDdEF4akxCU2dLTWdhcFJaak5KUWc",
+      "date": "09/10/2026, 12:18 PM, +0000 UTC",
+      "iso_date": "2026-09-10T12:18:05Z"
+    },
+    {
+      "position": 91,
+      "title": "Isro launches India's first geo-orbit imaging satellite, PM Modi says ‘reflection of excellence’",
+      "source": {
+        "name": "Telegraph India",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.telegraphindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.telegraphindia.com/india/isro-launches-indias-first-geo-orbit-imaging-satellite-pm-modi-says-reflection-of-excellence/cid/2178263",
+      "thumbnail": "https://assets.telegraphindia.com/telegraph/2026/Sep/1788495047_isro-2.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1TbWhJUTNkSlYwbE9PVWxYVFJERUF4aW1CU2dLTWdZbFpJS3N2UVE",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 92,
+      "title": "ISRO tests an improved version of the first stage of Small Satellite Launch vehicle (SSLV)",
+      "source": {
+        "name": "ISRO",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.isro.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.isro.gov.in/first_stage_of_Small_Satellite_Launch_vehicle.html",
+      "thumbnail": "https://www.isro.gov.in/media_isro/image/index/Latest/sslv.jpg.webp",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTBOMmxyVG1sSVgwaFdkM1ZNVFJDM0FSaVRBaWdCTWdZVllJd05yUVU",
+      "date": "08/12/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-12T07:00:00Z"
+    },
+    {
+      "position": 93,
+      "title": "The logic behind ISRO and DRDO’s tech transfers",
+      "source": {
+        "name": "LinkedIn",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.linkedin.com/pulse/logic-behind-isro-drdos-tech-transfers-zerodha-1lhyf",
+      "thumbnail": "https://media.licdn.com/dms/image/v2/D4D12AQHvh-VkZJauWQ/article-cover_image-shrink_720_1280/B4DaB_W17dHcAU-/0/1788843091022?e=2147483647&v=beta&t=Z14KdUrxOX2ge4BoEXw3Aw3jrfZ7qP3rx7anZlkatPA",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNVM1ZPYVUxdlpVOXFkelZuVFJDZkF4ampCU2dLTWdZQmtJaFB0UVU",
+      "date": "09/08/2026, 05:00 AM, +0000 UTC",
+      "iso_date": "2026-09-08T05:00:24Z"
+    },
+    {
+      "position": 94,
+      "title": "ISRO employees write to Union govt, seek written reply on privatisation of space sector",
+      "source": {
+        "name": "The News Minute",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.thenewsminute.com/karnataka/isro-employees-write-to-union-govt-seek-written-reply-on-privatisation-of-space-sector",
+      "thumbnail": "https://cf-images.assettype.com/thenewsminute/import/sites/default/files/isro_facebook.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBNamhMU0MxVk4xTnlRVlF0VFJERUF4aW1CU2dLTWdrWk00cUp3V1I3Q0FJ",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 95,
+      "title": "'ISRO Alone Can't Meet Nation's Needs': V Narayanan Defends Private Sector Role",
+      "source": {
+        "name": "NDTV",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.ndtv.com/india-news/isro-alone-cannot-meet-nations-needs-chief-v-narayanan-defends-private-sector-role-12001059",
+      "thumbnail": "https://c.ndtvimg.com/2026-09/5uef9nas_dr-v-narayanan_625x300_04_September_26.jpeg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWtXV05rTm5oMU1ERjJZV3RNVFJDZkF4ampCU2dLTWdrQlFKQURubWtXS2dJ",
+      "date": "09/04/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-04T07:00:00Z"
+    },
+    {
+      "position": 96,
+      "title": "Not against privatisation, ISRO staff want clarity on jobs after letter to chief",
+      "source": {
+        "name": "ThePrint",
+        "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Soumya Pillai"
+        ]
+      },
+      "link": "https://theprint.in/feature/isro-vnarayanan-privatisation-staff-association-space-sector/3035047/",
+      "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2025/08/ISRO-chief.png",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVRPRFpSWWpWMU5uWkNSRGxEVFJDZkF4ampCU2dLTWdZdFJaU3VwUWc",
+      "date": "09/06/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-06T07:00:00Z"
+    },
+    {
+      "position": 97,
+      "title": "El Niño could turn historic in 2026: ISRO satellite captures major changes in Pacific Ocean",
+      "source": {
+        "name": "Business Today",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesstoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.businesstoday.in/world/story/el-nino-could-turn-historic-in-2026-isro-satellite-captures-major-changes-in-pacific-ocean-554838-2026-09-12",
+      "thumbnail": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202609/6aa3a7c9940bb-el-nio-is-closely-watched-in-india-because-changes-in-pacific-ocean-temperatures-and-atmospheric-ci-110336298-16x9.jpg?size=1280:720",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNVVRMnBaVUZVd1dsQmtibXd4VFJDZkF4ampCU2dLTWdzQkFJd2dHU2pJa1FuVjBB",
+      "date": "09/11/2026, 10:30 PM, +0000 UTC",
+      "iso_date": "2026-09-11T22:30:05Z"
+    },
+    {
+      "position": 98,
+      "title": "Isro tests engine that will power India's Bahubali LVM3 rocket in space",
+      "source": {
+        "name": "India Today",
+        "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://www.indiatoday.in/science/story/isro-ce20-cryogenic-engine-test-lvm3-gaganyaan-space-india-2991418-2026-09-10",
+      "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/isro-tests-engine-that-will-power-indias-bahubali-lvm3-rocket-in-space-102138597-16x9_0.jpg?VersionId=JoV50agn8zKKwzSVjQg1Ql5Vyf4j5E2C&size=1280:720",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUhXbWhLYlhNek1taEpTVmxrVFJDZkF4ampCU2dLTWdZQlVZak5IUWc",
+      "date": "09/10/2026, 07:27 AM, +0000 UTC",
+      "iso_date": "2026-09-10T07:27:53Z"
+    },
+    {
+      "position": 99,
+      "title": "ISRO Scientist, Engineer SC recruitment 2026: 176 vacancies announced, check eligibility, selection proce",
+      "source": {
+        "name": "The Times of India",
+        "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+      },
+      "link": "https://timesofindia.indiatimes.com/education/news/isro-scientist-engineer-sc-recruitment-2026-176-vacancies-announced-check-eligibility-selection-process-and-steps-to-apply/articleshow/133607146.cms",
+      "thumbnail": "https://static.toiimg.com/thumb/msid-133607146,width-1280,height-720,imgsize-70484,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUhXRlJKTXpobVIyNHlSMGxFVFJDZkF4ampCU2dLTWdrQmNJQU5UU011bUFB",
+      "date": "08/29/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-08-29T07:00:00Z"
+    },
+    {
+      "position": 100,
+      "title": "For ISRO, Friday Is Not About Putting Another Satellite Into Orbit",
+      "source": {
+        "name": "Rediff",
+        "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "authors": [
+          "Venkatachari Jagannathan"
+        ]
+      },
+      "link": "https://www.rediff.com/news/special/for-isro-friday-is-not-about-putting-another-satellite-into-orbit/20260903.htm",
+      "thumbnail": "https://im.rediff.com/1600-900/news/2026/sep/03gisat-1a-eos-05-1.jpg",
+      "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTVMWG81TFZCT1dUQXhUVmhJVFJDZkF4ampCU2dLTWdPQk1RWQ",
+      "date": "09/03/2026, 07:00 AM, +0000 UTC",
+      "iso_date": "2026-09-03T07:00:00Z"
     }
   ],
-  "menu_links": [{ "title": "Science", "topic_token": "EXAMPLE_TOKEN" }]
+  "menu_links": [
+    {
+      "title": "India",
+      "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+    },
+    {
+      "title": "World",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Your local news",
+      "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+    },
+    {
+      "title": "Business",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Technology",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Entertainment",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Sports",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Science",
+      "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+    },
+    {
+      "title": "Health",
+      "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+    }
+  ],
+  "related_topics": [
+    {
+      "topic_token": "CAAqJggKIiBDQkFTRWdvSkwyMHZNRE42ZDJ0NkVnVmxiaTFIUWlnQVAB",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJggKIiBDQkFTRWdvSkwyMHZNRE42ZDJ0NkVnVmxiaTFIUWlnQVAB",
+      "title": "ISRO",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/-sqt_WaRtb0kK6qG70u0eHHAGyHBQTsqP_GfujtT-QIA_P-ioKsrMkVKfa6UVtnaF58nFoqWY9b5-a9myP4w0najtUrHj1vBUw9ImVhD0ZR4qovkRwEG_h_p5-BxI2Kv7jpBvhTT3j0P_xMS2YJlybUFZ5bDzud8PcKdMgl2-jMVmEk"
+    }
+  ]
 }

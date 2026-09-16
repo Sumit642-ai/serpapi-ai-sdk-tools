@@ -183,13 +183,23 @@ describe("test fixtures carry no secrets", () => {
     })) {
       const serialised = JSON.stringify(fixture);
 
+      // The decisive check. A SerpApi key only ever travels as an `api_key`
+      // query parameter, so its absence means no request URL was recorded with
+      // credentials attached.
       expect(serialised, `${name} fixture contains an api_key`).not.toContain("api_key");
 
-      // A SerpApi key is 64 lowercase hex characters. Nothing legitimate in a
-      // search response looks like that, so a match means a key got recorded.
-      expect(serialised, `${name} fixture contains a key-shaped string`).not.toMatch(
-        /\b[0-9a-f]{64}\b/,
+      // search_metadata holds the id of the specific search and links back to
+      // its raw HTML and JSON. The recorder strips it; this makes sure.
+      expect(serialised, `${name} fixture contains search_metadata`).not.toContain(
+        "search_metadata",
       );
+
+      // Note: there is deliberately no "does this contain a 64-character hex
+      // string" rule here, tempting as it looks. A SerpApi key has that shape,
+      // but so does plenty of third-party data — the recorded news fixture
+      // contains a Reuters image URL with a 64-hex `auth=` token in it. Such a
+      // rule rejects real responses while proving nothing extra, since any
+      // genuine leak would carry `api_key` and be caught above.
     }
   });
 });
