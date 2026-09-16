@@ -1,0 +1,83 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_hotels",
+    "q": "hotels in Jaipur",
+    "check_in_date": "2026-10-03",
+    "check_out_date": "2026-10-05",
+    "adults": "2",
+    "currency": "INR",
+    "gl": "in",
+    "hl": "en"
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Hotel Pearl Palace",
+      "description": "Heritage-style rooms with a rooftop restaurant.",
+      "link": "https://www.example-hotel-pearl.com/",
+      "property_token": "EXAMPLE_PROPERTY_TOKEN_1",
+      "gps_coordinates": { "latitude": 26.9124, "longitude": 75.7873 },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "11:00 AM",
+      "rate_per_night": {
+        "lowest": "₹2,400",
+        "extracted_lowest": 2400,
+        "before_taxes_fees": "₹2,100",
+        "extracted_before_taxes_fees": 2100
+      },
+      "total_rate": {
+        "lowest": "₹4,800",
+        "extracted_lowest": 4800
+      },
+      "prices": [{ "source": "Booking.com", "rate_per_night": { "lowest": "₹2,450" } }],
+      "nearby_places": [{ "name": "Hawa Mahal", "transportations": [{ "type": "Walking" }] }],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/example-hotel-1-thumb",
+          "original_image": "https://lh5.googleusercontent.com/example-hotel-1-full"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 3120,
+      "location_rating": 4.7,
+      "amenities": [
+        "Free Wi-Fi",
+        "Free breakfast",
+        "Pool",
+        "Air conditioning",
+        "Restaurant",
+        "Airport shuttle",
+        "Room service",
+        "Bar"
+      ],
+      "excluded_amenities": ["Fitness centre"],
+      "essential_info": ["Heritage building"]
+    },
+    {
+      "type": "vacation rental",
+      "name": "Pink City Loft",
+      "link": "https://www.example-pink-city-loft.com/",
+      "property_token": "EXAMPLE_PROPERTY_TOKEN_2",
+      "gps_coordinates": { "latitude": 26.9198, "longitude": 75.8025 },
+      "rate_per_night": {
+        "lowest": "₹3,150",
+        "extracted_lowest": 3150
+      },
+      "total_rate": {
+        "lowest": "₹6,300",
+        "extracted_lowest": 6300
+      },
+      "images": [{ "thumbnail": "https://lh5.googleusercontent.com/example-hotel-2-thumb" }],
+      "overall_rating": 4.8,
+      "reviews": 64,
+      "amenities": ["Kitchen", "Free Wi-Fi", "Washer"]
+    }
+  ],
+  "serpapi_pagination": { "next_page_token": "EXAMPLE_NEXT_PAGE_TOKEN" }
+}

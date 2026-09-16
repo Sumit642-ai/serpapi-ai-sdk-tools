@@ -1,0 +1,55 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "budget wireless earbuds",
+    "gl": "in",
+    "hl": "en"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "boAt Airdopes 141 Wireless Earbuds",
+      "product_id": "EXAMPLE_PRODUCT_1",
+      "product_link": "https://www.google.com/shopping/product/example1",
+      "source": "Amazon.in",
+      "price": "₹1,299",
+      "extracted_price": 1299,
+      "rating": 4.1,
+      "reviews": 48210,
+      "snippet": "42H playtime, ENx technology, low latency gaming mode.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=example1",
+      "delivery": "Free delivery by Tue, 22 Sep",
+      "extensions": ["42H playback"]
+    },
+    {
+      "position": 2,
+      "title": "Realme Buds T110",
+      "product_id": "EXAMPLE_PRODUCT_2",
+      "product_link": "https://www.google.com/shopping/product/example2",
+      "source": { "name": "Flipkart" },
+      "price": "₹1,099",
+      "extracted_price": 1099,
+      "rating": 4.3,
+      "reviews": 12890,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=example2",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 3,
+      "title": "Noise Buds VS104",
+      "product_id": "EXAMPLE_PRODUCT_3",
+      "product_link": "https://www.google.com/shopping/product/example3",
+      "source": "Croma",
+      "price": "₹1,499",
+      "extracted_price": 1499,
+      "rating": 3.9,
+      "reviews": 5310,
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=example3"
+    }
+  ],
+  "filters": [{ "type": "Price", "options": [{ "text": "Up to ₹1,000" }] }]
+}

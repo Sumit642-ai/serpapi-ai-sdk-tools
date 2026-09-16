@@ -1,0 +1,57 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "q": "cafes near Connaught Place, New Delhi",
+    "type": "search",
+    "hl": "en"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Blue Tokai Coffee Roasters",
+      "place_id": "EXAMPLE_PLACE_ID_1",
+      "data_id": "0x390cfd0000000000:0xexample1",
+      "gps_coordinates": { "latitude": 28.6304, "longitude": 77.2177 },
+      "rating": 4.4,
+      "reviews": 2183,
+      "price": "₹200–400",
+      "type": "Coffee shop",
+      "types": ["Coffee shop", "Cafe"],
+      "address": "N-Block, Connaught Place, New Delhi, Delhi 110001",
+      "open_state": "Open ⋅ Closes 11 pm",
+      "hours": "Open ⋅ Closes 11 pm",
+      "operating_hours": { "monday": "8:30 am–11 pm" },
+      "phone": "+91 99999 00000",
+      "website": "https://bluetokaicoffee.com/",
+      "thumbnail": "https://lh5.googleusercontent.com/example-thumb-1"
+    },
+    {
+      "position": 2,
+      "title": "Cafe United Coffee House",
+      "place_id": "EXAMPLE_PLACE_ID_2",
+      "gps_coordinates": { "latitude": 28.6328, "longitude": 77.2197 },
+      "rating": 4.2,
+      "reviews": 15420,
+      "price": "₹₹",
+      "type": "Restaurant",
+      "address": "E-15, Connaught Place, New Delhi, Delhi 110001",
+      "open_state": "Closed ⋅ Opens 10 am Tue",
+      "phone": "+91 88888 00000"
+    },
+    {
+      "position": 3,
+      "title": "Third Wave Coffee",
+      "place_id": "EXAMPLE_PLACE_ID_3",
+      "gps_coordinates": { "latitude": 28.6289, "longitude": 77.2201 },
+      "rating": 4.1,
+      "reviews": 640,
+      "type": "Coffee shop",
+      "address": "Block A, Connaught Place, New Delhi, Delhi 110001"
+    }
+  ],
+  "serpapi_pagination": { "next": "https://serpapi.com/search?start=20" }
+}

@@ -1,0 +1,46 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success",
+    "total_time_taken": 0.87
+  },
+  "search_parameters": {
+    "engine": "google_light",
+    "q": "what is serpapi",
+    "gl": "in",
+    "hl": "en"
+  },
+  "search_information": {
+    "query_displayed": "what is serpapi",
+    "total_results": 1840000
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "SerpApi: Google Search API",
+      "link": "https://serpapi.com/",
+      "displayed_link": "https://serpapi.com",
+      "snippet": "Scrape Google and other search engines from our fast, easy, and complete API.",
+      "sitelinks": {
+        "inline": [{ "title": "Pricing", "link": "https://serpapi.com/pricing" }]
+      }
+    },
+    {
+      "position": 2,
+      "title": "SerpApi - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/SerpApi",
+      "displayed_link": "https://en.wikipedia.org › wiki › SerpApi",
+      "snippet": "SerpApi is a real-time API to access search engine results.",
+      "date": "12 Aug 2026"
+    },
+    {
+      "position": 3,
+      "title": "SerpApi on GitHub",
+      "link": "https://github.com/serpapi",
+      "displayed_link": "https://github.com › serpapi",
+      "snippet": "Official client libraries for the SerpApi search API."
+    }
+  ],
+  "related_searches": [{ "query": "serpapi pricing" }],
+  "serpapi_pagination": { "next": "https://serpapi.com/search?start=10" }
+}

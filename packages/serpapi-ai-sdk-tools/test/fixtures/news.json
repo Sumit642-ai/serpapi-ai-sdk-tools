@@ -1,0 +1,50 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_news",
+    "q": "ISRO",
+    "gl": "in",
+    "hl": "en"
+  },
+  "news_results": [
+    {
+      "position": 1,
+      "title": "ISRO completes key test for next lunar mission",
+      "source": {
+        "name": "The Hindu",
+        "icon": "https://lh3.googleusercontent.com/example-icon",
+        "authors": ["Staff Reporter"]
+      },
+      "link": "https://www.thehindu.com/sci-tech/example-isro-test/",
+      "thumbnail": "https://news.google.com/api/attachments/example=w280-h168",
+      "date": "09/14/2026, 07:00 AM, +0530 IST",
+      "iso_date": "2026-09-14T01:30:00Z"
+    },
+    {
+      "position": 2,
+      "title": "Grouped coverage heading",
+      "stories": [
+        {
+          "position": 1,
+          "title": "Gaganyaan crew module clears splashdown trial",
+          "source": { "name": "Indian Express" },
+          "link": "https://indianexpress.com/article/example-gaganyaan/",
+          "date": "09/13/2026, 06:15 PM, +0530 IST",
+          "iso_date": "2026-09-13T12:45:00Z"
+        },
+        {
+          "position": 2,
+          "title": "What the splashdown trial means for 2027",
+          "source": { "name": "Mint" },
+          "link": "https://www.livemint.com/science/example-analysis",
+          "date": "09/13/2026, 08:40 PM, +0530 IST",
+          "iso_date": "2026-09-13T15:10:00Z"
+        }
+      ]
+    }
+  ],
+  "menu_links": [{ "title": "Science", "topic_token": "EXAMPLE_TOKEN" }]
+}

@@ -1,0 +1,124 @@
+{
+  "search_metadata": {
+    "id": "handwritten-fixture",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "departure_id": "DEL",
+    "arrival_id": "GOX",
+    "outbound_date": "2026-10-03",
+    "type": "2",
+    "currency": "INR",
+    "travel_class": "1"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-03 06:10"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport",
+            "id": "GOX",
+            "time": "2026-10-03 08:45"
+          },
+          "duration": 155,
+          "airplane": "Airbus A320",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 2043",
+          "legroom": "28 in",
+          "extensions": ["Average legroom (28 in)", "Carbon emissions estimate: 95 kg"]
+        }
+      ],
+      "layovers": [],
+      "total_duration": 155,
+      "carbon_emissions": {
+        "this_flight": 95000,
+        "typical_for_this_route": 101000,
+        "difference_percent": -6
+      },
+      "price": 5432,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "EXAMPLE_BOOKING_TOKEN_1"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-10-03 14:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport",
+            "id": "BOM",
+            "time": "2026-10-03 16:30"
+          },
+          "duration": 130,
+          "airplane": "Boeing 787",
+          "airline": "Air India",
+          "travel_class": "Economy",
+          "flight_number": "AI 806"
+        },
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport",
+            "id": "BOM",
+            "time": "2026-10-03 17:55"
+          },
+          "arrival_airport": {
+            "name": "Manohar International Airport",
+            "id": "GOX",
+            "time": "2026-10-03 19:00"
+          },
+          "duration": 65,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "travel_class": "Economy",
+          "flight_number": "AI 671"
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "Chhatrapati Shivaji Maharaj International Airport",
+          "id": "BOM"
+        }
+      ],
+      "total_duration": 280,
+      "carbon_emissions": {
+        "this_flight": 132000,
+        "typical_for_this_route": 101000,
+        "difference_percent": 31
+      },
+      "price": 4890,
+      "type": "One way",
+      "booking_token": "EXAMPLE_BOOKING_TOKEN_2"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 4890,
+    "price_level": "low",
+    "typical_price_range": [4500, 9000]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": { "id": "DEL", "name": "Indira Gandhi International Airport" },
+          "city": "New Delhi",
+          "country": "India"
+        }
+      ]
+    }
+  ]
+}

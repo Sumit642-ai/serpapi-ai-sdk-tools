@@ -57,15 +57,39 @@ The reason is repeated as a comment in `packages/serpapi-ai-sdk-tools/tsup.confi
 
 ## Phase 3 — The package
 
-- [ ] `client.ts` — URL building, key resolution, timeout, abort, errors, cache
-- [ ] Six tools: web, news, maps, shopping, flights, hotels
-- [ ] Compaction functions
-- [ ] `serpApiTools()` with the `include` option
-- [ ] Optional in-memory cache
-- [ ] Tests: validation, compaction, empty results, errors, missing key,
+- [x] `client.ts` — URL building, key resolution, timeout, abort, errors, cache
+- [x] Six tools: web, news, maps, shopping, flights, hotels
+- [x] Compaction functions
+- [x] `serpApiTools()` with the `include` option (return type narrows to the subset)
+- [x] Optional in-memory cache
+- [x] Tests: validation, compaction, empty results, errors, missing key,
       key-never-leaked, cache, abort
-- [ ] `npm test`, `npm run typecheck`, `npm run build` pass
-- [ ] Commit
+- [x] `npm test` (92 tests), `npm run typecheck`, `npm run build` all pass
+- [x] Commit
+
+### Things worth remembering from Phase 3
+
+- **A SerpApi "error" is not always an error.** A valid search that matched
+  nothing comes back as HTTP 200 with `error: "Google hasn't returned any
+  results for this query."` That is reported as `{ results: [], note: "No
+  results found" }`, because returning an error would make a model retry the
+  same search forever.
+- **Google Flights infers its trip type.** `return_date` is required when
+  `type=1` and forbidden when `type=2`, so `type` is derived from whether a
+  return date was given instead of being asked for.
+- **`google_light` has no `num` parameter,** so `maxResults` is applied after
+  the response. The full `google` engine does get `num`.
+- **`google_maps` has no `location` parameter,** unlike the web engines, so a
+  configured default location is folded into the query text.
+- **`google_shopping` has no `currency` parameter.** The store front (`gl`)
+  decides the currency, so `defaults.currency` is deliberately not sent there.
+
+### Open item for the Phase 6 review
+
+`dist/index.d.ts` is ~81 KB. It correctly does `import * as ai from 'ai'`, but
+TypeScript writes the inferred `tool()` return type out structurally. Giving the
+six factories explicit return type annotations would shrink it a lot. Working
+and correct as-is; revisit during the review pass.
 
 ## Phase 4 — Real fixtures (CHECKPOINT)
 
