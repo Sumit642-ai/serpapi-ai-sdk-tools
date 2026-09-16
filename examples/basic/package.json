@@ -1,0 +1,22 @@
+{
+  "name": "@serpapi-ai-sdk-tools/example-basic",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Smallest possible example: one question, real SerpApi results.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.72",
+    "ai": "^7.0.102",
+    "serpapi-ai-sdk-tools": "*",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  }
+}

@@ -138,13 +138,56 @@ secrets, so a bad recording fails the suite rather than reaching a commit.
 
 ## Phase 5 — Examples and demo (CHECKPOINT)
 
-- [ ] `examples/basic`
-- [ ] `examples/chat` Next.js demo: result cards, tool activity line, prompt buttons
-- [ ] Package imported through the workspace, not relative `src` paths
-- [ ] `npm run dev` starts it
-- [ ] **STOP** — give the owner 6 browser questions to try
-- [ ] Fix whatever the owner reports
-- [ ] Commit
+- [x] `examples/basic`
+- [x] `examples/chat` Next.js demo: result cards, tool activity line, prompt buttons
+- [x] Package imported through the workspace (npm links it as a junction, so the
+      demo consumes the built `dist` through the `exports` map, as a real app would)
+- [x] `npm run dev` starts it — builds the package first, then Next
+- [x] End-to-end verified for **0 search credits** (see below)
+- [x] **STOP** — gave the owner 6 browser questions
+- [ ] Fix whatever the owner reports  ← **waiting here**
+- [ ] Commit the fixes
+
+### The demo model had to change
+
+`gemini-3.8-flash` was the planned default. It does not work. Measured time to
+the first streamed token on the owner's free key, asking for a single word:
+
+| Model | Time to first token |
+| ----- | ------------------- |
+| `gemini-3.6-flash` | **2.1s** — the new default |
+| `gemini-3.1-flash-lite` | 3.8s |
+| `gemini-3.5-flash` | 13.8s |
+| `gemini-3.8-flash` | timed out at 30s |
+| `gemini-flash-latest` | timed out at 30s |
+| `gemini-2.5-flash` | 404 — no longer available to new keys |
+
+A model that takes 30s makes a working demo look broken, which matters for the
+video. The table is repeated in `.env.example` so the choice is not mysterious.
+
+Also worth recording: the owner's Google key is **valid**. An earlier warning
+that it "looked wrong" because it was 53 characters rather than the 39-character
+`AIza` shape was incorrect — it lists 30 usable models.
+
+### Verifying the demo without spending credits
+
+Asking the demo for flights on a date in the past exercises the whole chain —
+model picks the tool, tool validates, error streams back, model reads it and
+replies — and costs nothing, because the validation runs before any request:
+
+    "type":"tool-input-available"  "toolName":"flightsSearch"
+    "type":"tool-output-available"
+    "error":"outboundDate is in the past (2020-01-01). Today is 2026-09-16..."
+    "type":"text-delta"   <- the model then answered using that error
+
+Worth keeping as the smoke test whenever the demo is touched.
+
+### Next tried to write its own CLAUDE.md
+
+On first `next dev`, Next 16 generated `AGENTS.md` and `CLAUDE.md` inside
+`examples/chat`. The repository's own `CLAUDE.md` at the root was untouched, but
+the generated copies are noise, so `agentRules: false` is set in
+`next.config.ts` and the files are deleted.
 
 ## Phase 6 — Docs, CI and review
 

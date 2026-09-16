@@ -13,7 +13,9 @@
     "build": "npm run build --workspace serpapi-ai-sdk-tools",
     "test": "npm run test --workspace serpapi-ai-sdk-tools",
     "typecheck": "tsc --noEmit -p tsconfig.json && npm run typecheck --workspaces --if-present",
-    "fixtures": "tsx scripts/record-fixtures.ts"
+    "fixtures": "tsx scripts/record-fixtures.ts",
+    "dev": "npm run build && npm run dev --workspace @serpapi-ai-sdk-tools/example-chat",
+    "example:basic": "npm run build && npm run start --workspace @serpapi-ai-sdk-tools/example-basic"
   },
   "devDependencies": {
     "tsx": "^4.23.13",
